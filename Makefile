@@ -7,6 +7,8 @@ all: antsontable-orig antsontable
 
 clean: clean-orig clean-new
 
+distclean: clean clean-more
+
 .PHONY: all clean clean-orig clean-new run-orig run
 
 
@@ -17,7 +19,7 @@ antsontable-orig: antsontable-orig.o
 	${CXX} ${LDFLAGS} -o $@ $^ ${LDLIBS}
 
 run-orig: antsontable-orig
-	antsontable-orig > run-orig
+	./antsontable-orig > run-orig
 
 clean-orig:
 	\rm -f antsontable-orig.o
@@ -42,7 +44,10 @@ antsontable: antsontable.o initialization.o randompartition.o report.o  timestep
 	${CXX} ${LDFLAGS} -o $@ $^ ${LDLIBS}
 
 run: antsontable
-	antsontable > run
+	./antsontable > run
 
 clean-new:
 	\rm -f antsontable.o initialization.o randompartition.o report.o timestep.o
+
+clean-more:
+	\rm antsontable antsontable-orig run run-orig
