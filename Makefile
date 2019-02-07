@@ -9,8 +9,7 @@ clean: clean-orig clean-new
 
 distclean: clean clean-more
 
-.PHONY: all clean clean-orig clean-new run-orig run
-
+.PHONY: all clean distclean clean-orig clean-new clean-more run-orig run test
 
 antsontable-orig.o: antsontable-orig.cc
 	${CXX} ${CXXFLAGS} -c -o $@ $^
@@ -51,3 +50,7 @@ clean-new:
 
 clean-more:
 	\rm antsontable antsontable-orig run run-orig
+
+test: run run-orig
+	diff run run-orig
+
