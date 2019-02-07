@@ -1,6 +1,6 @@
 CXX=g++
-CXXFLAGS=-std=c++11 -O3 -march=native
-LDFLAGS=
+CXXFLAGS=-std=c++11 -g -O3 -march=native
+LDFLAGS=-g
 LDLIBS=
 
 all: antsontable-orig antsontable
