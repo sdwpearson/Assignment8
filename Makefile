@@ -1,5 +1,7 @@
 CXX=g++
 CXXFLAGS=-std=c++11 -g -O3 -march=native
+CXXFLAGS=-std=c++11 -g -O2 -march=native -ftree-vectorize -Wall
+
 LDFLAGS=-g
 LDLIBS=
 
@@ -49,7 +51,7 @@ clean-new:
 	\rm -f antsontable.o initialization.o randompartition.o report.o timestep.o
 
 clean-more:
-	\rm antsontable antsontable-orig run run-orig
+	\rm -f antsontable antsontable-orig run run-orig
 
 test: run run-orig
 	diff run run-orig
