@@ -11,7 +11,7 @@ clean: clean-orig clean-new
 
 distclean: clean clean-more
 
-.PHONY: all clean distclean clean-orig clean-new clean-more run-orig run test
+.PHONY: all clean distclean clean-orig clean-new clean-more run-orig run integratedtest help
 
 antsontable-orig.o: antsontable-orig.cc
 	${CXX} ${CXXFLAGS} -c -o $@ $^
@@ -56,6 +56,14 @@ clean-new:
 clean-more:
 	\rm -f antsontable antsontable-orig run run-orig
 
-test: run run-orig
+integratedtest: run run-orig
 	diff run run-orig
 
+help:
+	@echo Type:
+	@echo " 'make'                to compile the antsontable and antsontable-orig applications;"
+	@echo " 'make run'            to run antsontable;"
+	@echo " 'make run-orig'       to run antsontable-orig;"
+	@echo " 'make integratedtest' to compare outputs of antsontable and antsontable-orig."
+	@echo " 'make clean'          to remove all object files (triggers a full recompile on next 'make')"
+	@echo " 'make distclean'      to remove all object files, executables and test outputs"
