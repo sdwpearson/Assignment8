@@ -44,14 +44,14 @@ randompartition.o: randompartition.cc randompartition.h
 antsontable.o: antsontable.cc initialization.h report.h timestep.h output.h
 	${CXX} ${CXXFLAGS} -c -o $@ $<
 
-antsontable: antsontable.o initialization.o randompartition.o report.o  timestep.o output.o
+antsontable: antsontable.o initialization.o randompartition.o report.o timestep.o output.o
 	${CXX} ${LDFLAGS} -o $@ $^ ${LDLIBS}
 
 run: antsontable
 	./antsontable > run
 
 clean-new:
-	\rm -f antsontable.o initialization.o randompartition.o report.o timestep.o
+	\rm -f antsontable.o initialization.o randompartition.o report.o timestep.o output.o
 
 clean-more:
 	\rm -f antsontable antsontable-orig run run-orig
