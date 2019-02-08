@@ -26,6 +26,9 @@ clean-orig:
 	\rm -f antsontable-orig.o
 
 
+output.o: output.cc output.h
+	${CXX} ${CXXFLAGS} -c -o $@ $<
+
 timestep.o: timestep.cc timestep.h
 	${CXX} ${CXXFLAGS} -c -o $@ $<
 
@@ -38,10 +41,10 @@ initialization.o: initialization.cc initialization.h
 randompartition.o: randompartition.cc randompartition.h
 	${CXX} ${CXXFLAGS} -c -o $@ $<
 
-antsontable.o: antsontable.cc
+antsontable.o: antsontable.cc initialization.h report.h timestep.h output.h
 	${CXX} ${CXXFLAGS} -c -o $@ $<
 
-antsontable: antsontable.o initialization.o randompartition.o report.o  timestep.o
+antsontable: antsontable.o initialization.o randompartition.o report.o  timestep.o output.o
 	${CXX} ${LDFLAGS} -o $@ $^ ${LDLIBS}
 
 run: antsontable

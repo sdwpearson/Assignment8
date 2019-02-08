@@ -33,25 +33,30 @@
 #include "initialization.h"
 #include "report.h"
 #include "timestep.h"
+#include "output.h"
 
 // Main driver function of antsontable.cc
 int main()
 {
     // parameters
-    int    length     = 70;     // length of the table
-    int    time_steps = 10000;  // number of time steps to take
-    int    total_ants = 40000;  // initial number of ants
-    size_t seed       = 11;     // seed for random number generation
+    int         length     = 70;        // length of the table
+    int         time_steps = 10000;     // number of time steps to take
+    int         total_ants = 40000;     // initial number of ants
+    size_t      seed       = 11;        // seed for random number generation
+    std::string filename   = "ants.nc"; // output filename
 
     // work arrays
     rarray<int,2> number_of_ants(length,length);     // distribution of ants on the table over squares.
     rarray<int,2> new_number_of_ants(length,length); // auxiliary array used in time step to hold the new distribution of ants
+    // prepare output file
+    OutputHandle handle = output_open(filename, number_of_ants.shape());
     
     // place the ants evenly on the table
     initialize_uniform(number_of_ants, total_ants);
 
-    // count ants and report
+    // count ants, report and output to file
     total_ants = report_summary(number_of_ants, 0);
+    output_write(handle, number_of_ants, 0);
 
     // run time steps
     for (int t = 0; t < time_steps; t++) {
@@ -61,7 +66,14 @@ int main()
                 
         // count ants and report
         total_ants = report_summary(number_of_ants, t+1);
+
+        // output every 1000 timesteps
+        if (t%1000 == 0) {
+           output_write(handle, number_of_ants, t+1);
+        }
     }
+
+    output_close(handle);
 
     return 0;
 }             
