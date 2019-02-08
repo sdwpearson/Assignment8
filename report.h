@@ -8,18 +8,18 @@
 #ifndef REPORTH
 #define REPORTH
 
-// FUnction which computes the total number in a two dimensional 
+#include <rarray>
+// Function which computes the total number in a two dimensional 
 // array, as well as the minimum and maximum, and reports these
 // to the terminal.
 //
 // Paremeters:
-//   number_of_ants   pointer to the first elements of a two-dimensional array
-//   length           size of both dimensions of the array
+//   number_of_ants   a two-dimensional rarray 
 //   t                a counter that will be output to screen as well
 //
 // Returns:
 //   the sum of all number_of_ents
 //
-int report_summary(const int* number_of_ants, int length, int t);
+int report_summary(const rarray<int,2>& number_of_ants, int t);
 
 #endif

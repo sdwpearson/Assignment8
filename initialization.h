@@ -9,15 +9,16 @@
 #ifndef INITIALIZATIONH
 #define INITIALIZATIONH
 
-// The function initialize_uniform assigns a number to each element in the 
-// length x length array such that those numbers add up to a given total, 
+#include <rarray>
+
+// The function initialize_uniform assigns a number to each element in a
+// two-dimensional array such that those numbers add up to a given total, 
 // in as uniform a way possible.
 //
 // Parameters:
-//  number    a pointer to the first element of the length x length array of ints
-//  length    the size of each dimension of the array
+//  number    an 2d rarray of ints (by reference) 
 //  total     the amount that all numbers in the array must sum up to.
 // 
-void initialize_uniform(int* number, int length, int total);
+void initialize_uniform(rarray<int,2>& number, int total);
                      
 #endif

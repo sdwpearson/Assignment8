@@ -29,6 +29,7 @@
 #include <iostream>
 #include <random>
 #include <algorithm>
+#include <rarray>
 #include "initialization.h"
 #include "report.h"
 #include "timestep.h"
@@ -43,28 +44,25 @@ int main()
     size_t seed       = 11;     // seed for random number generation
 
     // work arrays
-    int* number_of_ants = new int[length*length];     // distribution of ants on the table over squares.
-    int* new_number_of_ants = new int[length*length]; // auxiliary array used in time step to hold the new distribution of ants
+    rarray<int,2> number_of_ants(length,length);     // distribution of ants on the table over squares.
+    rarray<int,2> new_number_of_ants(length,length); // auxiliary array used in time step to hold the new distribution of ants
     
     // place the ants evenly on the table
-    initialize_uniform(number_of_ants, length, total_ants);
+    initialize_uniform(number_of_ants, total_ants);
 
     // count ants and report
-    total_ants = report_summary(number_of_ants, length, 0);
+    total_ants = report_summary(number_of_ants, 0);
 
     // run time steps
     for (int t = 0; t < time_steps; t++) {
 
         // move ants on the table (some fall off)
-        perform_one_timestep(number_of_ants, new_number_of_ants, length, seed);
+        perform_one_timestep(number_of_ants, new_number_of_ants, seed);
                 
         // count ants and report
-        total_ants = report_summary(number_of_ants, length, t+1);
+        total_ants = report_summary(number_of_ants, t+1);
     }
 
-    delete[] number_of_ants;
-    delete[] new_number_of_ants;
-    
     return 0;
 }             
 

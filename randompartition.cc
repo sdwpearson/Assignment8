@@ -9,17 +9,21 @@
 // Implementation of the function to randomly divide a number 'total'
 // into a set of 'numdivision' numbers that add up to 'total'. Uses
 // c++11 random library to generate the randomness.
-void rand_partition(int total, int nparts, int* nperpart, size_t seed)
+void rand_partition(int total, int nparts, rarray<int,1>& nperpart, size_t seed)
 {
     // never mind the implementation, we'll see how this works in a future lecture.
     static std::mt19937 engine(seed);
     std::uniform_int_distribution<int> uniformint(0, total);
 
+    if (nperpart.size() != nparts) {
+	nperpart = rarray<int,1>(nparts);
+    }
+
     nperpart[0] = 0;
     for (int k = 1; k < nparts; k++)
         nperpart[k] = uniformint(engine);
 
-    std::sort(nperpart, nperpart + nparts);
+    std::sort(nperpart.data(), nperpart.data()+nparts);
 
     for (int k = 0; k < nparts-1; k++)
         nperpart[k] = nperpart[k+1] - nperpart[k];
