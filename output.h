@@ -11,10 +11,15 @@
 
 #include <string>
 #include <rarray>
+#include <memory>
+#include <netcdf>
 
-typedef int OutputHandle; // this stub type will change to a valid
-                          // handle on an open file in the real
-                          // implementation.
+struct OutputHandle // handle on an open file 
+{
+   std::shared_ptr<netCDF::NcFile> file;
+   netCDF::NcVar ants;  
+   size_t record;
+};  
 
 
 OutputHandle output_open(const std::string& filename, const int* shape);
