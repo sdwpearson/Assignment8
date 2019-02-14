@@ -9,6 +9,8 @@
 #ifndef OUTPUTH
 #define OUTPUTH
 
+#pragma GCC diagnostic ignored "-Wunused-variable"
+
 #include <string>
 #include <rarray>
 #include <memory>

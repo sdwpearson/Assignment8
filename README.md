@@ -2,4 +2,4 @@
 
 module load gcc hdf5 netcdf boost
 make
-make integratedtest
+make test

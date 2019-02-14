@@ -8,7 +8,7 @@ TESTLDLIBS=-lboost_unit_test_framework
 
 all: antsontable-orig antsontable
 
-testsuite: integratedtest run-initializationtest run-timesteptest  run-randompartitiontest
+test: integratedtest run-initializationtest run-timesteptest  run-randompartitiontest
 
 clean: clean-orig clean-new clean-test
 
