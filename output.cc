@@ -13,6 +13,7 @@ OutputHandle output_open(const std::string& filename, const int* shape)
    OutputHandle handle;
    handle.file = std::make_shared<netCDF::NcFile>(filename, 
                                                   netCDF::NcFile::replace);
+   handle.file->putAtt("description", "antsontable data");
    netCDF::NcDim tdim = handle.file->addDim("t");
    netCDF::NcDim xdim = handle.file->addDim("x", shape[0]);
    netCDF::NcDim ydim = handle.file->addDim("y", shape[1]);
