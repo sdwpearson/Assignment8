@@ -10,9 +10,9 @@ all: antsontable-orig antsontable
 
 testsuite: integratedtest run-initializationtest run-timesteptest  run-randompartitiontest
 
-clean: clean-orig clean-new
+clean: clean-orig clean-new clean-test
 
-distclean: clean clean-more
+distclean: clean clean-more 
 
 .PHONY: all clean distclean clean-orig clean-new clean-more run-orig run integratedtest run-initializationtest run-timesteptest  run-randompartitiontest help
 
@@ -83,8 +83,11 @@ run-randompartitiontest: randompartitiontest
 clean-new:
 	\rm -f antsontable.o initialization.o randompartition.o report.o timestep.o output.o
 
+clean-test:
+	\rm -f initializationtest.o timesteptest.o randompartitiontest.o
+
 clean-more:
-	\rm -f antsontable antsontable-orig run run-orig
+	\rm -f antsontable antsontable-orig run run-orig initializationtest timesteptest randompartitiontest
 
 integratedtest: run run-orig
 	diff run run-orig
