@@ -36,6 +36,7 @@
 #include "output.h"
 #include "parameters.h"
 
+// Function to display help and usage message
 void printhelp(std::ostream& out)
 {
    out << "antsontable - Simulation of ants walking on a table.\n"
@@ -50,7 +51,7 @@ void printhelp(std::ostream& out)
        << "The full ants data is written to a netcdf file.\n"
        << "\n"
        << "Usage:"
-       << "  antsontable [inifile] [--length=<L>] [--time_steps=<T>] \n"
+       << "  antsontable [<inifile>] [--length=<L>] [--time_steps=<T>] \n"
        << "              [--total_ants=<N>] [--seed=<S>] [--filename=<F>]\n"
        << "\n"
        << "where\n"
@@ -63,7 +64,6 @@ void printhelp(std::ostream& out)
        << "\n";
 }
 
-
 // Main driver function of antsontable.cc
 int main(int argc, char* argv[])
 {
@@ -73,7 +73,7 @@ int main(int argc, char* argv[])
     int         total_ants = 40000;     // initial number of ants
     size_t      seed       = 11;        // seed for random number generation
     std::string filename   = "ants.nc"; // output filename
-    std::string paramfile  = "params.ini"; // parameter file
+    std::string paramfile  = "";        // parameter file
 
     // deal with reading in parameters from a file or from the command line
     if ( (argc > 1) and (strcmp(argv[1],"--help")==0)) {

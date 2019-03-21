@@ -19,17 +19,20 @@ class Inifile
     Inifile()
     {}
    Inifile(const std::string filename, int argc, char* argv[]) {
-      read(filename.c_str(), argc, argv);
+       read(filename.c_str(), argc, argv);
     }
     void read(const std::string filename, int argc, char* argv[])  {
-        boost::property_tree::ini_parser::read_ini(filename, pt);
-        std::vector<std::string> args;
-        for (int i = 1; i < argc; i++) 
-           args.push_back(std::string(argv[i]));
-        std::string cmdline = boost::algorithm::join(args, " ");
-        boost::replace_all(cmdline, "--", "\n");
-        std::stringstream cmdlinestream(cmdline);
-        boost::property_tree::ini_parser::read_ini(cmdlinestream, pt);
+       if (filename.size() > 0)
+          boost::property_tree::ini_parser::read_ini(filename, pt);
+       if (argc > 1) {
+          std::vector<std::string> args;
+          for (int i = 1; i < argc; i++) 
+             args.push_back(std::string(argv[i]));
+          std::string cmdline = boost::algorithm::join(args, " ");
+          boost::replace_all(cmdline, "--", "\n");
+          std::stringstream cmdlinestream(cmdline);
+          boost::property_tree::ini_parser::read_ini(cmdlinestream, pt);
+       }
     }
     template<typename T>
     T get(const std::string str) const {
