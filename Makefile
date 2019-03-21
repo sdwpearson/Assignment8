@@ -27,7 +27,6 @@ run-orig: antsontable-orig
 clean-orig:
 	\rm -f antsontable-orig.o
 
-
 output.o: output.cc output.h
 	${CXX} ${CXXFLAGS} -c -o $@ $<
 
@@ -38,6 +37,9 @@ report.o: report.cc report.h
 	${CXX} ${CXXFLAGS} -c -o $@ $<
 
 initialization.o: initialization.cc initialization.h
+	${CXX} ${CXXFLAGS} -c -o $@ $<
+
+parameters.o: parameters.cc parameters.h
 	${CXX} ${CXXFLAGS} -c -o $@ $<
 
 randompartition.o: randompartition.cc randompartition.h
@@ -55,7 +57,7 @@ timesteptest.o: timesteptest.cc timestep.h
 antsontable.o: antsontable.cc initialization.h report.h timestep.h output.h
 	${CXX} ${CXXFLAGS} -c -o $@ $<
 
-antsontable: antsontable.o initialization.o randompartition.o report.o timestep.o output.o
+antsontable: antsontable.o initialization.o randompartition.o report.o timestep.o output.o parameters.o
 	${CXX} ${LDFLAGS} -o $@ $^ ${LDLIBS}
 
 randompartitiontest: randompartitiontest.o randompartition.o
@@ -68,7 +70,7 @@ initializationtest: initializationtest.o initialization.o
 	${CXX} ${LDFLAGS} -o $@ $^ ${LDLIBS} ${TESTLDLIBS}
 
 run: antsontable
-	./antsontable > run
+	./antsontable params.ini > run
 
 run-timesteptest: timesteptest
 	./timesteptest
@@ -80,7 +82,7 @@ run-randompartitiontest: randompartitiontest
 	./randompartitiontest
 
 clean-new:
-	\rm -f antsontable.o initialization.o randompartition.o report.o timestep.o output.o
+	\rm -f antsontable.o initialization.o randompartition.o report.o timestep.o output.o parameters.o
 
 clean-test:
 	\rm -f initializationtest.o timesteptest.o randompartitiontest.o
@@ -89,7 +91,7 @@ clean-more:
 	\rm -f antsontable antsontable-orig run run-orig initializationtest timesteptest randompartitiontest
 
 integratedtest: run run-orig
-	diff run run-orig
+	diff -q run run-orig
 
 help:
 	@echo Type:
