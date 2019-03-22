@@ -8,6 +8,8 @@
 #include "screenoutput.h"
 #include <iostream>
 #include <climits>
+#include <algorithm>
+#include <numeric>
 
 int report_summary(const rarray<int,2>& number_of_ants, int t)
 {

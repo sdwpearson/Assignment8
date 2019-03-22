@@ -55,14 +55,18 @@ void printhelp(std::ostream& out)
        << "Usage:"
        << "  antsontable [<inifile>] [--length=<L>] [--time_steps=<T>] \n"
        << "              [--total_ants=<N>] [--seed=<S>] [--filename=<F>]\n"
+       << "              [--netcdf_output_steps=<A>] [--screen_output_steps=<B>]"
        << "\n"
        << "where\n"
        << "  <inifile> is a file containing parameters\n"
-       << "  --length=<L>      length of the table (overrides inifile setting)\n"
-       << "  --time_steps=<T>  number of time steps to take (overrides inifile setting)\n"
-       << "  --total_ants=<N>  initial number of ants (overrides inifile setting)\n"
-       << "  --seed=<S>        seed for random number generation (overrides inifile setting)\n"
+       << "  --length=<L>      length of the table\n"
+       << "  --time_steps=<T>  number of time steps to take\n"
+       << "  --total_ants=<N>  initial number of ants\n"
+       << "  --seed=<S>        seed for random number generation\n"
        << "  --filename=<T>    name of the output netcdf file\n"
+       << "  --netcdf_output_steps=<A> only write to netcdf file every <A> time steps \n"
+       << "  --screen_output_steps=<B> only write to screen every <B> time steps\n"
+       << "Command line parameters override any settings in the <inifile>.\n"
        << "\n";
 }
 
@@ -77,33 +81,18 @@ int main(int argc, char* argv[])
     std::string filename     = "ants.nc";   // output filename
     int         netcdf_output_steps = 1000; // steps between output
     int         screen_output_steps = 1;    // steps between output
-    std::string paramfile    = "";          // parameter file
 
-    // deal with reading in parameters from a file or from the command line
-    if ( (argc > 1) and (strcmp(argv[1],"--help")==0)) {
-        printhelp(std::cout);
-        return 0;
-    }
-    if ( (argc > 1) and (argv[1][0] != '-') ) {
-        paramfile = std::string(argv[1]);
-        argv++;
-        argc--;
-    }
-    try {
-        read_parameters(paramfile, length, time_steps, total_ants, seed, filename, netcdf_output_steps, screen_output_steps, argc, argv);
-    } 
-    catch (std::exception& e) {
-        std::cerr << "Error: " << e.what() << std::endl;
-        printhelp(std::cerr);
-        return 1;
-    }
-    std::cerr << "# length = "     << length << "\n"
-              << "# time_steps = " << time_steps << "\n"
-              << "# total_ants = " << total_ants << "\n"
-              << "# seed = "       << seed << "\n"
-              << "# filename = "   << filename << "\n"
-              << "# netcdf_output_steps = " << netcdf_output_steps << "\n"
-              << "# screen_output_steps = " << screen_output_steps << "\n";
+    // deal with reading in parameters from a file or from the command line    
+    parameters(length, time_steps, total_ants, seed, filename, netcdf_output_steps, screen_output_steps, argc, argv, printhelp);
+
+    std::cerr << "# length = "                << length 
+              << "\n# time_steps = "          << time_steps 
+              << "\n# total_ants = "          << total_ants 
+              << "\n# seed = "                << seed 
+              << "\n# filename = "            << filename 
+              << "\n# netcdf_output_steps = " << netcdf_output_steps 
+              << "\n# screen_output_steps = " << screen_output_steps
+              << std::endl;
 
     // work arrays
     rarray<int,2> number_of_ants(length,length);     // distribution of ants on the table over squares.
@@ -126,7 +115,10 @@ int main(int argc, char* argv[])
         if (total_ants > 0) {
             perform_one_timestep(number_of_ants, new_number_of_ants, seed);
             // count ants
-            total_ants = std::accumulate(number_of_ants.begin(), number_of_ants.end(), 0);
+            total_ants = 0;
+            for (int i = 0; i < number_of_ants.extent(0); i++) 
+               for (int j = 0; j < number_of_ants.extent(1); j++) 
+                  total_ants += number_of_ants[i][j];
         }
         
         // report, sometimes

@@ -12,6 +12,7 @@
 #include <vector>
 #include <string>
 #include <sstream>
+#include <iostream>
 
 class Inifile
 {
@@ -80,4 +81,33 @@ void read_parameters(const std::string &inifilename,
   netcdf_output_steps = parameter.get<int>("netcdf_output_steps", 1000);
   screen_output_steps = parameter.get<int>("screen_output_steps", 1);
 }
-  
+
+void parameters(int&         length,       //length of the table
+                int&         time_steps,   //number of time steps to take
+                int&         total_ants,   //initial number of ants
+                size_t&      seed,         //seed for random number generation
+                std::string& filename,     //name of the output file
+                int&         netcdf_output_steps,// number of steps between netcdf output
+                int&         screen_output_steps,// number of steps between screen output
+                int argc, char* argv[],    //command line args
+                void (*help)(std::ostream&)) // help display function
+{
+    std::string paramfile    = "";          // parameter file
+    if ( (argc > 1) and (strcmp(argv[1],"--help")==0)) {
+        help(std::cout);
+        exit(0);
+    }
+    if ( (argc > 1) and (argv[1][0] != '-') ) {
+        paramfile = std::string(argv[1]);
+        argv++;
+        argc--;
+    }
+    try {
+        read_parameters(paramfile, length, time_steps, total_ants, seed, filename, netcdf_output_steps, screen_output_steps, argc, argv);
+    } 
+    catch (std::exception& e) {
+        std::cerr << "Error: " << e.what() << std::endl;
+        help(std::cerr);
+        exit(1);
+    }
+}

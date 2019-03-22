@@ -1,7 +1,7 @@
 CXX=g++
-CXXFLAGS=-std=c++11 -pg -g -O2 -march=native -ftree-vectorize -Wall
+CXXFLAGS=-std=c++11 -g -O2 -march=native -ftree-vectorize -Wall
 
-LDFLAGS=-g -pg
+LDFLAGS=-g
 LDLIBS=-lnetcdf_c++4
 TESTLDLIBS=-lboost_unit_test_framework
 
