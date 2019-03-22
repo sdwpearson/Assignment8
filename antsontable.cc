@@ -10,8 +10,9 @@
 // after every time step, as well as the minimum number of ants on a
 // square and the maximum.
 //
-// This is the part of the example solution for assignment 2 for the
-// scientific computing course PHY1610H given in the Winter of 2019.
+// This is the part of the example solution for assignments 2, 3, and
+// 4, and the starting point for assignment 8, for the scientific
+// computing course PHY1610H given in the Winter of 2019.
 //
 // Compile with 'make'.
 // On the clusters, it will be necessary to load the "gcc" module first.
@@ -21,7 +22,7 @@
 //     ./antsontable > output.dat
 //
 // This saves the output to the file output.dat instead of writing it to
-// screen.
+// screen. Type './antsontable --help' to see how to change parameters.
 //
 // Ramses van Zon, SciNet, University of Toronto
 // January 2019
@@ -29,11 +30,12 @@
 #include <iostream>
 #include <random>
 #include <algorithm>
+#include <numeric>
 #include <rarray>
 #include "initialization.h"
-#include "report.h"
+#include "screenoutput.h"
 #include "timestep.h"
-#include "output.h"
+#include "netcdfoutput.h"
 #include "parameters.h"
 
 // Function to display help and usage message
@@ -68,42 +70,45 @@ void printhelp(std::ostream& out)
 int main(int argc, char* argv[])
 {
     // parameters
-    int         length       = 70;        // length of the table
-    int         time_steps   = 10000;     // number of time steps to take
-    int         total_ants   = 40000;     // initial number of ants
-    size_t      seed         = 11;        // seed for random number generation
-    std::string filename     = "ants.nc"; // output filename
-    int         output_steps = 1000;      // steps between output
-    std::string paramfile    = "";        // parameter file
+    int         length       = 70;          // length of the table
+    int         time_steps   = 10000;       // number of time steps to take
+    int         total_ants   = 40000;       // initial number of ants
+    size_t      seed         = 11;          // seed for random number generation
+    std::string filename     = "ants.nc";   // output filename
+    int         netcdf_output_steps = 1000; // steps between output
+    int         screen_output_steps = 1;    // steps between output
+    std::string paramfile    = "";          // parameter file
 
     // deal with reading in parameters from a file or from the command line
     if ( (argc > 1) and (strcmp(argv[1],"--help")==0)) {
-       printhelp(std::cout);
-       return 0;
+        printhelp(std::cout);
+        return 0;
     }
     if ( (argc > 1) and (argv[1][0] != '-') ) {
-       paramfile = std::string(argv[1]);
-       argv++;
-       argc--;
+        paramfile = std::string(argv[1]);
+        argv++;
+        argc--;
     }
     try {
-       read_parameters(paramfile, length, time_steps, total_ants, seed, filename, output_steps, argc, argv);
+        read_parameters(paramfile, length, time_steps, total_ants, seed, filename, netcdf_output_steps, screen_output_steps, argc, argv);
     } 
     catch (std::exception& e) {
-       std::cerr << "Error: " << e.what() << std::endl;
-       printhelp(std::cerr);
-       return 1;
+        std::cerr << "Error: " << e.what() << std::endl;
+        printhelp(std::cerr);
+        return 1;
     }
-    std::cerr << "# length = "       << length << "\n"
-              << "# time_steps = "   << time_steps << "\n"
-              << "# total_ants = "   << total_ants << "\n"
-              << "# seed = "         << seed << "\n"
-              << "# filename = "     << filename << "\n"
-              << "# output_steps = " << output_steps << "\n";
+    std::cerr << "# length = "     << length << "\n"
+              << "# time_steps = " << time_steps << "\n"
+              << "# total_ants = " << total_ants << "\n"
+              << "# seed = "       << seed << "\n"
+              << "# filename = "   << filename << "\n"
+              << "# netcdf_output_steps = " << netcdf_output_steps << "\n"
+              << "# screen_output_steps = " << screen_output_steps << "\n";
 
     // work arrays
     rarray<int,2> number_of_ants(length,length);     // distribution of ants on the table over squares.
     rarray<int,2> new_number_of_ants(length,length); // auxiliary array used in time step to hold the new distribution of ants
+
     // prepare output file
     OutputHandle handle = output_open(filename, number_of_ants.shape());
     
@@ -120,12 +125,17 @@ int main(int argc, char* argv[])
         // move ants on the table (some fall off)
         if (total_ants > 0) {
             perform_one_timestep(number_of_ants, new_number_of_ants, seed);
+            // count ants
+            total_ants = std::accumulate(number_of_ants.begin(), number_of_ants.end(), 0);
         }
-           
-        // output every output_steps timesteps
-        if (t%output_steps == 0) {
-           // count ants and report
-           total_ants = report_summary(number_of_ants, t+1);
+        
+        // report, sometimes
+        if ((t+1)%screen_output_steps == 0) {
+            total_ants = report_summary(number_of_ants, t+1);
+        }
+
+        // output to netcdf, sometimes
+        if ((t+1)%netcdf_output_steps == 0) {
            // write to netcdf
            output_write(handle, number_of_ants, t+1);
         }

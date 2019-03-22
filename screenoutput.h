@@ -1,4 +1,4 @@
-// report.h
+// screenoutput.h
 //
 // Summarize and reports ants on a table.  Header file
 //

@@ -30,7 +30,8 @@ void read_parameters(const std::string &inifilename,
                      int&         total_ants,   //initial number of ants
                      size_t&      seed,         //seed for random number generation
                      std::string& filename,     //name of the output file
-                     int&         output_steps, // number of steps between output
+                     int&         netcdf_output_steps,// number of steps between netcdf output
+                     int&         screen_output_steps,// number of steps between screen output
                      int argc, char* argv[]);   //command line args
 
 #endif

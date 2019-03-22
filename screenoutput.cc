@@ -1,11 +1,11 @@
-// report.cc
+// screenoutput.cc
 //
 // Summarize and reports ants on a table. 
 //
 // Ramses van Zon, SciNet, University of Toronto
 // January 2019
 
-#include "report.h"
+#include "screenoutput.h"
 #include <iostream>
 #include <climits>
 

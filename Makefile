@@ -1,7 +1,7 @@
 CXX=g++
-CXXFLAGS=-std=c++11 -g -O2 -march=native -ftree-vectorize -Wall
+CXXFLAGS=-std=c++11 -pg -g -O2 -march=native -ftree-vectorize -Wall
 
-LDFLAGS=-g
+LDFLAGS=-g -pg
 LDLIBS=-lnetcdf_c++4
 TESTLDLIBS=-lboost_unit_test_framework
 
@@ -27,13 +27,13 @@ run-orig: antsontable-orig
 clean-orig:
 	\rm -f antsontable-orig.o
 
-output.o: output.cc output.h
+output.o: netcdfoutput.cc netcdfoutput.h
 	${CXX} ${CXXFLAGS} -c -o $@ $<
 
 timestep.o: timestep.cc timestep.h
 	${CXX} ${CXXFLAGS} -c -o $@ $<
 
-report.o: report.cc report.h
+screenoutput.o: screenoutput.cc screenoutput.h
 	${CXX} ${CXXFLAGS} -c -o $@ $<
 
 initialization.o: initialization.cc initialization.h
@@ -54,10 +54,10 @@ randompartitiontest.o: randompartitiontest.cc randompartition.h
 timesteptest.o: timesteptest.cc timestep.h
 	${CXX} ${CXXFLAGS} -c -o $@ $<
 
-antsontable.o: antsontable.cc initialization.h report.h timestep.h output.h
+antsontable.o: antsontable.cc initialization.h screenoutput.h timestep.h netcdfoutput.h
 	${CXX} ${CXXFLAGS} -c -o $@ $<
 
-antsontable: antsontable.o initialization.o randompartition.o report.o timestep.o output.o parameters.o
+antsontable: antsontable.o initialization.o randompartition.o screenoutput.o timestep.o netcdfoutput.o parameters.o
 	${CXX} ${LDFLAGS} -o $@ $^ ${LDLIBS}
 
 randompartitiontest: randompartitiontest.o randompartition.o
@@ -82,7 +82,7 @@ run-randompartitiontest: randompartitiontest
 	./randompartitiontest
 
 clean-new:
-	\rm -f antsontable.o initialization.o randompartition.o report.o timestep.o output.o parameters.o
+	\rm -f antsontable.o initialization.o randompartition.o screenoutput.o timestep.o netcdfoutput.o parameters.o
 
 clean-test:
 	\rm -f initializationtest.o timesteptest.o randompartitiontest.o
@@ -98,6 +98,6 @@ help:
 	@echo " 'make'                to compile the antsontable and antsontable-orig applications;"
 	@echo " 'make run'            to run antsontable;"
 	@echo " 'make run-orig'       to run antsontable-orig;"
-	@echo " 'make integratedtest' to compare outputs of antsontable and antsontable-orig."
+	@echo " 'make integratedtest' to compare netcdfoutputs of antsontable and antsontable-orig."
 	@echo " 'make clean'          to remove all object files (triggers a full recompile on next 'make')"
 	@echo " 'make distclean'      to remove all object files, executables and test outputs"

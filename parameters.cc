@@ -59,7 +59,8 @@ void read_parameters(const std::string &inifilename,
                      int&         total_ants,   //initial number of ants
                      size_t&      seed,         //seed for random number generation
                      std::string& filename,     //name of the output file
-                     int&         output_steps, // number of steps between output
+                     int&         netcdf_output_steps,// number of steps between netcdf output
+                     int&         screen_output_steps,// number of steps between screen output
                      int argc, char* argv[])    //command line args
 {
   // This function reads in the file inifilename and stores the
@@ -76,6 +77,7 @@ void read_parameters(const std::string &inifilename,
   seed         = parameter.get<size_t>("seed",    11);
   // Output parameters
   filename     = parameter.get<std::string>("filename", "ants.nc");
-  output_steps = parameter.get<int>("output_steps",     1000);
+  netcdf_output_steps = parameter.get<int>("netcdf_output_steps", 1000);
+  screen_output_steps = parameter.get<int>("screen_output_steps", 1);
 }
   

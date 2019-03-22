@@ -1,12 +1,11 @@
-// output.cc
+// netcdfoutput.cc
 //
-// Will writes the 2d array of ants to a netcdf file. This is a stub
-// (placeholder) of the implementation.
+// Writes the 2d array of ants to a netcdf file. 
 //
 // Ramses van Zon, SciNet, University of Toronto
 // January-February 2019
 
-#include "output.h"
+#include "netcdfoutput.h"
 
 OutputHandle output_open(const std::string& filename, const int* shape)
 {
