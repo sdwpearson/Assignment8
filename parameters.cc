@@ -32,7 +32,10 @@ class Inifile
           std::string cmdline = boost::algorithm::join(args, " ");
           boost::replace_all(cmdline, "--", "\n");
           std::stringstream cmdlinestream(cmdline);
-          boost::property_tree::ini_parser::read_ini(cmdlinestream, pt);
+          boost::property_tree::ptree ptarg;
+          boost::property_tree::ini_parser::read_ini(cmdlinestream, ptarg);
+          for (auto& keyvalue: ptarg)
+             pt.put_child(keyvalue.first, keyvalue.second);
        }
     }
     template<typename T>
