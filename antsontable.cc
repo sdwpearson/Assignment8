@@ -64,8 +64,8 @@ void printhelp(std::ostream& out)
        << "  --total_ants=<N>  initial number of ants\n"
        << "  --seed=<S>        seed for random number generation\n"
        << "  --filename=<T>    name of the output netcdf file\n"
-       << "  --netcdf_output_steps=<A> only write to netcdf file every <A> time steps \n"
-       << "  --screen_output_steps=<B> only write to screen every <B> time steps\n"
+       << "  --netcdf_output_steps=<A> only write to netcdf file every <A> time steps (no netcdf output if A<1)\n"
+       << "  --screen_output_steps=<B> only write to screen every <B> time steps (no screen output if B<1)\n"
        << "Command line parameters override any settings in the <inifile>.\n"
        << "\n";
 }
@@ -97,21 +97,24 @@ int main(int argc, char* argv[])
     // work arrays
     rarray<int,2> number_of_ants(length,length);     // distribution of ants on the table over squares.
     rarray<int,2> new_number_of_ants(length,length); // auxiliary array used in time step to hold the new distribution of ants
-
-    // prepare output file
-    OutputHandle handle = output_open(filename, number_of_ants.shape());
+    NetCDFOutputHandle handle;                       // netcdf output file
     
     // place the ants evenly on the table
     initialize_uniform(number_of_ants, total_ants);
 
-    // count ants, report and output to file
-    total_ants = report_summary(number_of_ants, 0);
-    output_write(handle, number_of_ants, 0);
+    // count ants, report and output to netcdf file
+    if (screen_output_steps > 0)
+       screen_report_summary(number_of_ants, 0);
+
+    if (netcdf_output_steps > 0) {
+       handle = netcdf_output_open(filename, number_of_ants.shape());
+       netcdf_output_write(handle, number_of_ants, 0);
+    }
 
     // run time steps
     for (int t = 0; t < time_steps; t++) {
 
-        // move ants on the table (some fall off)
+        // move ants on the table, if there are any left (some fall off)
         if (total_ants > 0) {
             perform_one_timestep(number_of_ants, new_number_of_ants, seed);
             // count ants
@@ -122,19 +125,16 @@ int main(int argc, char* argv[])
         }
         
         // report, sometimes
-        if ((t+1)%screen_output_steps == 0) {
-            total_ants = report_summary(number_of_ants, t+1);
-        }
+        if (screen_output_steps > 0 and (t+1)%screen_output_steps == 0)
+            screen_report_summary(number_of_ants, t+1);
 
         // output to netcdf, sometimes
-        if ((t+1)%netcdf_output_steps == 0) {
-           // write to netcdf
-           output_write(handle, number_of_ants, t+1);
-        }
+        if (netcdf_output_steps > 0 and (t+1)%netcdf_output_steps == 0)
+           netcdf_output_write(handle, number_of_ants, t+1);
 
     }
 
-    output_close(handle);
+    netcdf_output_close(handle);
 
     return 0;
 }             

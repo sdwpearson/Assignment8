@@ -11,7 +11,7 @@
 #include <algorithm>
 #include <numeric>
 
-int report_summary(const rarray<int,2>& number_of_ants, int t)
+int screen_report_summary(const rarray<int,2>& number_of_ants, int t)
 {
     // count ants and determine minimum and maximum number on a square
     int nmin = INT_MAX; // will hold the minimum number of ants on any square

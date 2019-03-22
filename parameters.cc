@@ -89,7 +89,7 @@ void parameters(int&         length,       //length of the table
                 std::string& filename,     //name of the output file
                 int&         netcdf_output_steps,// number of steps between netcdf output
                 int&         screen_output_steps,// number of steps between screen output
-                int argc, char* argv[],    //command line args
+                int          argc, char* argv[],    //command line args
                 void (*help)(std::ostream&)) // help display function
 {
     std::string paramfile    = "";          // parameter file

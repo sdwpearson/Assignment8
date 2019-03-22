@@ -3,11 +3,11 @@
 // Writes the 2d array of ants to a netcdf file. 
 //
 // Ramses van Zon, SciNet, University of Toronto
-// January-February 2019
+// January-March 2019
 
 #include "netcdfoutput.h"
 
-OutputHandle output_open(const std::string& filename, const int* shape)
+NetCDFOutputHandle netcdf_output_open(const std::string& filename, const int* shape)
 {
    // Opens the netcdf file 'filename' and prepares an integer-valued
    // three-dimensional variable in it.  The variable has a first
@@ -22,8 +22,8 @@ OutputHandle output_open(const std::string& filename, const int* shape)
    //              shape[0] x shape[1])
    //
    // Returns: 
-   //  a variable of type OutputHandle
-   OutputHandle handle;
+   //  a variable of type NetCDFOutputHandle
+   NetCDFOutputHandle handle;
    handle.file = std::make_shared<netCDF::NcFile>(filename, 
                                                   netCDF::NcFile::replace);
    handle.file->putAtt("description", "antsontable data");
@@ -36,23 +36,23 @@ OutputHandle output_open(const std::string& filename, const int* shape)
    return handle;
 }
 
-void output_write(OutputHandle& handle, const rarray<int,2>& number, int time)
+void netcdf_output_write(NetCDFOutputHandle& handle, const rarray<int,2>& number, int time)
 {
    // Writes one slice of the variable stored in the netcdf file. The
    // dimension of the number matrix must be the same as the shape
    // that was given to the output_open function.
    // Parameters:
-   //  handle    a variable of type OutputHandle (by reference) 
+   //  handle    a variable of type NetCDFOutputHandle (by reference) 
    //  number    a matrix to write to file (by reference) 
    handle.time.putVar({handle.record}, {1}, &time);
    handle.ants.putVar({handle.record,0,0}, {1,size_t(number.extent(0)),size_t(number.extent(1))}, number.data());
    handle.record++;
 }
 
-void output_close(OutputHandle& handle)
+void netcdf_output_close(NetCDFOutputHandle& handle)
 {
-   // Closes the netcdf file associated with the OutputHandle handle.
-   // Parameter:  handle, a variable of type OutputHandle (by reference) 
+   // Closes the netcdf file associated with the NetCDFOutputHandle handle.
+   // Parameter:  handle, a variable of type NetCDFOutputHandle (by reference) 
    handle.file = nullptr; // file closes automatically
    // for good measure:
    handle.ants = netCDF::NcVar();

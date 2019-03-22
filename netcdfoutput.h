@@ -1,12 +1,12 @@
-// output.h
+// netcdfoutput.h
 //
 // Writes the 2d array of ants to a netcdf file. 
 //
 // Ramses van Zon, SciNet, University of Toronto
-// January-February 2019
+// January-March 2019
 
-#ifndef OUTPUTH
-#define OUTPUTH
+#ifndef NETCDFOUTPUTH
+#define NETCDFOUTPUTH
 
 #pragma GCC diagnostic ignored "-Wunused-variable"
 
@@ -17,7 +17,7 @@
 
 // Because NetCFD file objects cannot be copied, we define an OutputHandle 
 // object that can, and can be returned from a function 
-struct OutputHandle // handle on an open file 
+struct NetCDFOutputHandle // handle on an open file 
 {
    std::shared_ptr<netCDF::NcFile> file;
    netCDF::NcVar time;
@@ -26,7 +26,7 @@ struct OutputHandle // handle on an open file
 };  
 
 
-// The function output_open opens the netcdf file 'filename' and prepares an integer-valued 
+// The function netcdf_output_open opens the netcdf file 'filename' and prepares an integer-valued 
 // three-dimensional variable in it.  The variable has a first unlimited dimension, while the remaining 
 // two dimensions are determined by the 'shape' argument.
 //
@@ -36,25 +36,25 @@ struct OutputHandle // handle on an open file
 //              (i.e., the matrices to be stored are of size shape[0] x shape[1])
 //
 // Returns: 
-//  a variable of type OutputHandle
+//  a variable of type NetCDFOutputHandle
 // 
-OutputHandle output_open(const std::string& filename, const int* shape);
+NetCDFOutputHandle netcdf_output_open(const std::string& filename, const int* shape);
 
 
 // The function output_write writes one slice of the variable stored in the netcdf file. The dimension of the
 // number matrix must be the same as the shape that was given to the output_open function.
 //
 // Parameters:
-//  handle    a variable of type OutputHandle (by reference) 
+//  handle    a variable of type NetCDFOutputHandle (by reference) 
 //  number    a matrix to write to file (by reference) 
 //
-void output_write(OutputHandle& handle, const rarray<int,2>& number, int time);
+void netcdf_output_write(NetCDFOutputHandle& handle, const rarray<int,2>& number, int time);
 
-// The function output_close closes the netcdf file associated with the OutputHandle handle.
+// The function netcdf_output_close closes the netcdf file associated with the NetCDFOutputHandle handle.
 //
 // Parameters:
-//  handle    a variable of type OutputHandle (by reference) 
+//  handle    a variable of type NetCDFOutputHandle (by reference) 
 // 
-void output_close(OutputHandle& handle);
+void netcdf_output_close(NetCDFOutputHandle& handle);
 
 #endif

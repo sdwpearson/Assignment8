@@ -3,10 +3,10 @@
 // Summarize and reports ants on a table.  Header file
 //
 // Ramses van Zon, SciNet, University of Toronto
-// January 2019
+// January-March 2019
 
-#ifndef REPORTH
-#define REPORTH
+#ifndef SCREENOUTPUTH
+#define SCREENOUTPUTH
 
 #include <rarray>
 // Function which computes the total number in a two dimensional 
@@ -20,6 +20,6 @@
 // Returns:
 //   the sum of all number_of_ents
 //
-int report_summary(const rarray<int,2>& number_of_ants, int t);
+int screen_report_summary(const rarray<int,2>& number_of_ants, int t);
 
 #endif
