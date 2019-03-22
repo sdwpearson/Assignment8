@@ -54,26 +54,28 @@ class Inifile
 };
 
 void read_parameters(const std::string &inifilename, 
-                     int&         length,    //length of the table
-                     int&         time_steps,//number of time steps to take
-                     int&         total_ants,//initial number of ants
-                     size_t&      seed,      //seed for random number generation
-                     std::string& filename,  //name of the output file
-                     int argc, char* argv[]) //command line args
+                     int&         length,       //length of the table
+                     int&         time_steps,   //number of time steps to take
+                     int&         total_ants,   //initial number of ants
+                     size_t&      seed,         //seed for random number generation
+                     std::string& filename,     //name of the output file
+                     int&         output_steps, // number of steps between output
+                     int argc, char* argv[])    //command line args
 {
   // This function reads in the file inifilename and stores the
   // parameters in that file in the variables length, time_steps,
-  // total_ants, seed, and, datafile.
+  // total_ants, seed, filename, and output_steps.
 
   // Open inifile and parse (using Inifile class)
   Inifile parameter(inifilename, argc, argv);
       
-  // Simulation parameters (defaults are given in case they are not in the file)
-  length     = parameter.get<int>("length",     70);
-  time_steps = parameter.get<int>("time_steps", 10000);
-  total_ants = parameter.get<int>("total_ants", 40000);
-  seed       = parameter.get<size_t>("seed",    11);
+  // Simulation parameters (defaults are given in case they are not in the file or on the command line)
+  length       = parameter.get<int>("length",     70);
+  time_steps   = parameter.get<int>("time_steps", 10000);
+  total_ants   = parameter.get<int>("total_ants", 40000);
+  seed         = parameter.get<size_t>("seed",    11);
   // Output parameters
-  filename = parameter.get<std::string>("filename","ants.nc");
+  filename     = parameter.get<std::string>("filename", "ants.nc");
+  output_steps = parameter.get<int>("output_steps",     1000);
 }
   

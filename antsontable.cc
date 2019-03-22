@@ -68,12 +68,13 @@ void printhelp(std::ostream& out)
 int main(int argc, char* argv[])
 {
     // parameters
-    int         length     = 70;        // length of the table
-    int         time_steps = 10000;     // number of time steps to take
-    int         total_ants = 40000;     // initial number of ants
-    size_t      seed       = 11;        // seed for random number generation
-    std::string filename   = "ants.nc"; // output filename
-    std::string paramfile  = "";        // parameter file
+    int         length       = 70;        // length of the table
+    int         time_steps   = 10000;     // number of time steps to take
+    int         total_ants   = 40000;     // initial number of ants
+    size_t      seed         = 11;        // seed for random number generation
+    std::string filename     = "ants.nc"; // output filename
+    int         output_steps = 1000;      // steps between output
+    std::string paramfile    = "";        // parameter file
 
     // deal with reading in parameters from a file or from the command line
     if ( (argc > 1) and (strcmp(argv[1],"--help")==0)) {
@@ -86,18 +87,19 @@ int main(int argc, char* argv[])
        argc--;
     }
     try {
-       read_parameters(paramfile, length, time_steps, total_ants, seed, filename, argc, argv);
+       read_parameters(paramfile, length, time_steps, total_ants, seed, filename, output_steps, argc, argv);
     } 
     catch (std::exception& e) {
        std::cerr << "Error: " << e.what() << std::endl;
        printhelp(std::cerr);
        return 1;
     }
-    std::cerr << "# length = "     << length << "\n"
-              << "# time_steps = " << time_steps << "\n"
-              << "# total_ants = " << total_ants << "\n"
-              << "# seed = "       << seed << "\n"
-              << "# filename = "   << filename << "\n";
+    std::cerr << "# length = "       << length << "\n"
+              << "# time_steps = "   << time_steps << "\n"
+              << "# total_ants = "   << total_ants << "\n"
+              << "# seed = "         << seed << "\n"
+              << "# filename = "     << filename << "\n"
+              << "# output_steps = " << output_steps << "\n";
 
     // work arrays
     rarray<int,2> number_of_ants(length,length);     // distribution of ants on the table over squares.
@@ -116,15 +118,18 @@ int main(int argc, char* argv[])
     for (int t = 0; t < time_steps; t++) {
 
         // move ants on the table (some fall off)
-        perform_one_timestep(number_of_ants, new_number_of_ants, seed);
-                
-        // count ants and report
-        total_ants = report_summary(number_of_ants, t+1);
-
-        // output every 1000 timesteps
-        if (t%1000 == 0) {
+        if (total_ants > 0) {
+            perform_one_timestep(number_of_ants, new_number_of_ants, seed);
+        }
+           
+        // output every output_steps timesteps
+        if (t%output_steps == 0) {
+           // count ants and report
+           total_ants = report_summary(number_of_ants, t+1);
+           // write to netcdf
            output_write(handle, number_of_ants, t+1);
         }
+
     }
 
     output_close(handle);
