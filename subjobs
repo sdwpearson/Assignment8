@@ -1,0 +1,10 @@
+mkdir serialjobdir{} && cd serialjobdir001 && ./antsontable --filename=ants001.nc --length=100 --seed=1
+mkdir serialjobdir{} && cd serialjobdir002 && ./antsontable --filename=ants002.nc --length=100 --seed=2
+mkdir serialjobdir{} && cd serialjobdir003 && ./antsontable --filename=ants003.nc --length=100 --seed=3
+mkdir serialjobdir{} && cd serialjobdir004 && ./antsontable --filename=ants004.nc --length=100 --seed=4
+mkdir serialjobdir{} && cd serialjobdir005 && ./antsontable --filename=ants005.nc --length=100 --seed=5
+mkdir serialjobdir{} && cd serialjobdir006 && ./antsontable --filename=ants006.nc --length=150 --seed=1
+mkdir serialjobdir{} && cd serialjobdir007 && ./antsontable --filename=ants007.nc --length=150 --seed=2
+mkdir serialjobdir{} && cd serialjobdir008 && ./antsontable --filename=ants008.nc --length=150 --seed=3
+mkdir serialjobdir{} && cd serialjobdir009 && ./antsontable --filename=ants009.nc --length=150 --seed=4
+mkdir serialjobdir{} && cd serialjobdir010 && ./antsontable --filename=ants010.nc --length=150 --seed=5
