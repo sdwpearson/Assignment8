@@ -1,10 +1,10 @@
-mkdir serialjobdir001 && cd serialjobdir001 && ../antsontable --filename=ants001.nc --length=100 --seed=1
-mkdir serialjobdir002 && cd serialjobdir002 && ../antsontable --filename=ants002.nc --length=100 --seed=2
-mkdir serialjobdir003 && cd serialjobdir003 && ../antsontable --filename=ants003.nc --length=100 --seed=3
-mkdir serialjobdir004 && cd serialjobdir004 && ../antsontable --filename=ants004.nc --length=100 --seed=4
-mkdir serialjobdir005 && cd serialjobdir005 && ../antsontable --filename=ants005.nc --length=100 --seed=5
-mkdir serialjobdir006 && cd serialjobdir006 && ../antsontable --filename=ants006.nc --length=150 --seed=1
-mkdir serialjobdir007 && cd serialjobdir007 && ../antsontable --filename=ants007.nc --length=150 --seed=2
-mkdir serialjobdir008 && cd serialjobdir008 && ../antsontable --filename=ants008.nc --length=150 --seed=3
-mkdir serialjobdir009 && cd serialjobdir009 && ../antsontable --filename=ants009.nc --length=150 --seed=4
-mkdir serialjobdir010 && cd serialjobdir010 && ../antsontable --filename=ants010.nc --length=150 --seed=5
+mkdir -p serialjobdir001 && cd serialjobdir001 && ../antsontable --filename=ants001.nc --length=100 --seed=1
+mkdir -p serialjobdir002 && cd serialjobdir002 && ../antsontable --filename=ants002.nc --length=100 --seed=2
+mkdir -p serialjobdir003 && cd serialjobdir003 && ../antsontable --filename=ants003.nc --length=100 --seed=3
+mkdir -p serialjobdir004 && cd serialjobdir004 && ../antsontable --filename=ants004.nc --length=100 --seed=4
+mkdir -p serialjobdir005 && cd serialjobdir005 && ../antsontable --filename=ants005.nc --length=100 --seed=5
+mkdir -p serialjobdir006 && cd serialjobdir006 && ../antsontable --filename=ants006.nc --length=150 --seed=1
+mkdir -p serialjobdir007 && cd serialjobdir007 && ../antsontable --filename=ants007.nc --length=150 --seed=2
+mkdir -p serialjobdir008 && cd serialjobdir008 && ../antsontable --filename=ants008.nc --length=150 --seed=3
+mkdir -p serialjobdir009 && cd serialjobdir009 && ../antsontable --filename=ants009.nc --length=150 --seed=4
+mkdir -p serialjobdir010 && cd serialjobdir010 && ../antsontable --filename=ants010.nc --length=150 --seed=5
