@@ -3,7 +3,7 @@
 #
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=16
-#SBATCH --time=12:00:00
+#SBATCH --time=4:00:00
 #SBATCH --job-name ants-serial16
  
 # Load modules
