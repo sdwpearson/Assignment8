@@ -16,7 +16,7 @@ cd $SLURM_SUBMIT_DIR
 export OMP_NUM_THREADS=1
  
 # EXECUTION COMMAND 
-parallel --joblog runs16.log -j $SLURM_TASKS_PER_NODE "mkdir serialjobdir{} && ./antsontable --filename={} --length={} --seed={}" ::: {01..200} {01..200} {100..50..300} {01..40}
+parallel --joblog runs16.log -j $SLURM_TASKS_PER_NODE "mkdir serialjobdir{1} && ./antsontable --filename={1} --length={2} --seed={3}" ::: {01..10} {100..50..150} {01..05}
 
 
 
