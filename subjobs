@@ -1,200 +1,200 @@
-mkdir -p serialjobdir1 && cd serialjobdir1 && ../antsontable --filename=ants1.nc --length=100 --seed=1;
-mkdir -p serialjobdir2 && cd serialjobdir2 && ../antsontable --filename=ants2.nc --length=100 --seed=2;
-mkdir -p serialjobdir3 && cd serialjobdir3 && ../antsontable --filename=ants3.nc --length=100 --seed=3;
-mkdir -p serialjobdir4 && cd serialjobdir4 && ../antsontable --filename=ants4.nc --length=100 --seed=4;
-mkdir -p serialjobdir5 && cd serialjobdir5 && ../antsontable --filename=ants5.nc --length=100 --seed=5;
-mkdir -p serialjobdir6 && cd serialjobdir6 && ../antsontable --filename=ants6.nc --length=100 --seed=6;
-mkdir -p serialjobdir7 && cd serialjobdir7 && ../antsontable --filename=ants7.nc --length=100 --seed=7;
-mkdir -p serialjobdir8 && cd serialjobdir8 && ../antsontable --filename=ants8.nc --length=100 --seed=8;
-mkdir -p serialjobdir9 && cd serialjobdir9 && ../antsontable --filename=ants9.nc --length=100 --seed=9;
-mkdir -p serialjobdir10 && cd serialjobdir10 && ../antsontable --filename=ants10.nc --length=100 --seed=10;
-mkdir -p serialjobdir11 && cd serialjobdir11 && ../antsontable --filename=ants11.nc --length=100 --seed=11;
-mkdir -p serialjobdir12 && cd serialjobdir12 && ../antsontable --filename=ants12.nc --length=100 --seed=12;
-mkdir -p serialjobdir13 && cd serialjobdir13 && ../antsontable --filename=ants13.nc --length=100 --seed=13;
-mkdir -p serialjobdir14 && cd serialjobdir14 && ../antsontable --filename=ants14.nc --length=100 --seed=14;
-mkdir -p serialjobdir15 && cd serialjobdir15 && ../antsontable --filename=ants15.nc --length=100 --seed=15;
-mkdir -p serialjobdir16 && cd serialjobdir16 && ../antsontable --filename=ants16.nc --length=100 --seed=16;
-mkdir -p serialjobdir17 && cd serialjobdir17 && ../antsontable --filename=ants17.nc --length=100 --seed=17;
-mkdir -p serialjobdir18 && cd serialjobdir18 && ../antsontable --filename=ants18.nc --length=100 --seed=18;
-mkdir -p serialjobdir19 && cd serialjobdir19 && ../antsontable --filename=ants19.nc --length=100 --seed=19;
-mkdir -p serialjobdir20 && cd serialjobdir20 && ../antsontable --filename=ants20.nc --length=100 --seed=20;
-mkdir -p serialjobdir21 && cd serialjobdir21 && ../antsontable --filename=ants21.nc --length=100 --seed=21;
-mkdir -p serialjobdir22 && cd serialjobdir22 && ../antsontable --filename=ants22.nc --length=100 --seed=22;
-mkdir -p serialjobdir23 && cd serialjobdir23 && ../antsontable --filename=ants23.nc --length=100 --seed=23;
-mkdir -p serialjobdir24 && cd serialjobdir24 && ../antsontable --filename=ants24.nc --length=100 --seed=24;
-mkdir -p serialjobdir25 && cd serialjobdir25 && ../antsontable --filename=ants25.nc --length=100 --seed=25;
-mkdir -p serialjobdir26 && cd serialjobdir26 && ../antsontable --filename=ants26.nc --length=100 --seed=26;
-mkdir -p serialjobdir27 && cd serialjobdir27 && ../antsontable --filename=ants27.nc --length=100 --seed=27;
-mkdir -p serialjobdir28 && cd serialjobdir28 && ../antsontable --filename=ants28.nc --length=100 --seed=28;
-mkdir -p serialjobdir29 && cd serialjobdir29 && ../antsontable --filename=ants29.nc --length=100 --seed=29;
-mkdir -p serialjobdir30 && cd serialjobdir30 && ../antsontable --filename=ants30.nc --length=100 --seed=30;
-mkdir -p serialjobdir31 && cd serialjobdir31 && ../antsontable --filename=ants31.nc --length=100 --seed=31;
-mkdir -p serialjobdir32 && cd serialjobdir32 && ../antsontable --filename=ants32.nc --length=100 --seed=32;
-mkdir -p serialjobdir33 && cd serialjobdir33 && ../antsontable --filename=ants33.nc --length=100 --seed=33;
-mkdir -p serialjobdir34 && cd serialjobdir34 && ../antsontable --filename=ants34.nc --length=100 --seed=34;
-mkdir -p serialjobdir35 && cd serialjobdir35 && ../antsontable --filename=ants35.nc --length=100 --seed=35;
-mkdir -p serialjobdir36 && cd serialjobdir36 && ../antsontable --filename=ants36.nc --length=100 --seed=36;
-mkdir -p serialjobdir37 && cd serialjobdir37 && ../antsontable --filename=ants37.nc --length=100 --seed=37;
-mkdir -p serialjobdir38 && cd serialjobdir38 && ../antsontable --filename=ants38.nc --length=100 --seed=38;
-mkdir -p serialjobdir39 && cd serialjobdir39 && ../antsontable --filename=ants39.nc --length=100 --seed=39;
-mkdir -p serialjobdir40 && cd serialjobdir40 && ../antsontable --filename=ants40.nc --length=100 --seed=40;
-mkdir -p serialjobdir41 && cd serialjobdir41 && ../antsontable --filename=ants41.nc --length=150 --seed=1;
-mkdir -p serialjobdir42 && cd serialjobdir42 && ../antsontable --filename=ants42.nc --length=150 --seed=2;
-mkdir -p serialjobdir43 && cd serialjobdir43 && ../antsontable --filename=ants43.nc --length=150 --seed=3;
-mkdir -p serialjobdir44 && cd serialjobdir44 && ../antsontable --filename=ants44.nc --length=150 --seed=4;
-mkdir -p serialjobdir45 && cd serialjobdir45 && ../antsontable --filename=ants45.nc --length=150 --seed=5;
-mkdir -p serialjobdir46 && cd serialjobdir46 && ../antsontable --filename=ants46.nc --length=150 --seed=6;
-mkdir -p serialjobdir47 && cd serialjobdir47 && ../antsontable --filename=ants47.nc --length=150 --seed=7;
-mkdir -p serialjobdir48 && cd serialjobdir48 && ../antsontable --filename=ants48.nc --length=150 --seed=8;
-mkdir -p serialjobdir49 && cd serialjobdir49 && ../antsontable --filename=ants49.nc --length=150 --seed=9;
-mkdir -p serialjobdir50 && cd serialjobdir50 && ../antsontable --filename=ants50.nc --length=150 --seed=10;
-mkdir -p serialjobdir51 && cd serialjobdir51 && ../antsontable --filename=ants51.nc --length=150 --seed=11;
-mkdir -p serialjobdir52 && cd serialjobdir52 && ../antsontable --filename=ants52.nc --length=150 --seed=12;
-mkdir -p serialjobdir53 && cd serialjobdir53 && ../antsontable --filename=ants53.nc --length=150 --seed=13;
-mkdir -p serialjobdir54 && cd serialjobdir54 && ../antsontable --filename=ants54.nc --length=150 --seed=14;
-mkdir -p serialjobdir55 && cd serialjobdir55 && ../antsontable --filename=ants55.nc --length=150 --seed=15;
-mkdir -p serialjobdir56 && cd serialjobdir56 && ../antsontable --filename=ants56.nc --length=150 --seed=16;
-mkdir -p serialjobdir57 && cd serialjobdir57 && ../antsontable --filename=ants57.nc --length=150 --seed=17;
-mkdir -p serialjobdir58 && cd serialjobdir58 && ../antsontable --filename=ants58.nc --length=150 --seed=18;
-mkdir -p serialjobdir59 && cd serialjobdir59 && ../antsontable --filename=ants59.nc --length=150 --seed=19;
-mkdir -p serialjobdir60 && cd serialjobdir60 && ../antsontable --filename=ants60.nc --length=150 --seed=20;
-mkdir -p serialjobdir61 && cd serialjobdir61 && ../antsontable --filename=ants61.nc --length=150 --seed=21;
-mkdir -p serialjobdir62 && cd serialjobdir62 && ../antsontable --filename=ants62.nc --length=150 --seed=22;
-mkdir -p serialjobdir63 && cd serialjobdir63 && ../antsontable --filename=ants63.nc --length=150 --seed=23;
-mkdir -p serialjobdir64 && cd serialjobdir64 && ../antsontable --filename=ants64.nc --length=150 --seed=24;
-mkdir -p serialjobdir65 && cd serialjobdir65 && ../antsontable --filename=ants65.nc --length=150 --seed=25;
-mkdir -p serialjobdir66 && cd serialjobdir66 && ../antsontable --filename=ants66.nc --length=150 --seed=26;
-mkdir -p serialjobdir67 && cd serialjobdir67 && ../antsontable --filename=ants67.nc --length=150 --seed=27;
-mkdir -p serialjobdir68 && cd serialjobdir68 && ../antsontable --filename=ants68.nc --length=150 --seed=28;
-mkdir -p serialjobdir69 && cd serialjobdir69 && ../antsontable --filename=ants69.nc --length=150 --seed=29;
-mkdir -p serialjobdir70 && cd serialjobdir70 && ../antsontable --filename=ants70.nc --length=150 --seed=30;
-mkdir -p serialjobdir71 && cd serialjobdir71 && ../antsontable --filename=ants71.nc --length=150 --seed=31;
-mkdir -p serialjobdir72 && cd serialjobdir72 && ../antsontable --filename=ants72.nc --length=150 --seed=32;
-mkdir -p serialjobdir73 && cd serialjobdir73 && ../antsontable --filename=ants73.nc --length=150 --seed=33;
-mkdir -p serialjobdir74 && cd serialjobdir74 && ../antsontable --filename=ants74.nc --length=150 --seed=34;
-mkdir -p serialjobdir75 && cd serialjobdir75 && ../antsontable --filename=ants75.nc --length=150 --seed=35;
-mkdir -p serialjobdir76 && cd serialjobdir76 && ../antsontable --filename=ants76.nc --length=150 --seed=36;
-mkdir -p serialjobdir77 && cd serialjobdir77 && ../antsontable --filename=ants77.nc --length=150 --seed=37;
-mkdir -p serialjobdir78 && cd serialjobdir78 && ../antsontable --filename=ants78.nc --length=150 --seed=38;
-mkdir -p serialjobdir79 && cd serialjobdir79 && ../antsontable --filename=ants79.nc --length=150 --seed=39;
-mkdir -p serialjobdir80 && cd serialjobdir80 && ../antsontable --filename=ants80.nc --length=150 --seed=40;
-mkdir -p serialjobdir81 && cd serialjobdir81 && ../antsontable --filename=ants81.nc --length=200 --seed=1;
-mkdir -p serialjobdir82 && cd serialjobdir82 && ../antsontable --filename=ants82.nc --length=200 --seed=2;
-mkdir -p serialjobdir83 && cd serialjobdir83 && ../antsontable --filename=ants83.nc --length=200 --seed=3;
-mkdir -p serialjobdir84 && cd serialjobdir84 && ../antsontable --filename=ants84.nc --length=200 --seed=4;
-mkdir -p serialjobdir85 && cd serialjobdir85 && ../antsontable --filename=ants85.nc --length=200 --seed=5;
-mkdir -p serialjobdir86 && cd serialjobdir86 && ../antsontable --filename=ants86.nc --length=200 --seed=6;
-mkdir -p serialjobdir87 && cd serialjobdir87 && ../antsontable --filename=ants87.nc --length=200 --seed=7;
-mkdir -p serialjobdir88 && cd serialjobdir88 && ../antsontable --filename=ants88.nc --length=200 --seed=8;
-mkdir -p serialjobdir89 && cd serialjobdir89 && ../antsontable --filename=ants89.nc --length=200 --seed=9;
-mkdir -p serialjobdir90 && cd serialjobdir90 && ../antsontable --filename=ants90.nc --length=200 --seed=10;
-mkdir -p serialjobdir91 && cd serialjobdir91 && ../antsontable --filename=ants91.nc --length=200 --seed=11;
-mkdir -p serialjobdir92 && cd serialjobdir92 && ../antsontable --filename=ants92.nc --length=200 --seed=12;
-mkdir -p serialjobdir93 && cd serialjobdir93 && ../antsontable --filename=ants93.nc --length=200 --seed=13;
-mkdir -p serialjobdir94 && cd serialjobdir94 && ../antsontable --filename=ants94.nc --length=200 --seed=14;
-mkdir -p serialjobdir95 && cd serialjobdir95 && ../antsontable --filename=ants95.nc --length=200 --seed=15;
-mkdir -p serialjobdir96 && cd serialjobdir96 && ../antsontable --filename=ants96.nc --length=200 --seed=16;
-mkdir -p serialjobdir97 && cd serialjobdir97 && ../antsontable --filename=ants97.nc --length=200 --seed=17;
-mkdir -p serialjobdir98 && cd serialjobdir98 && ../antsontable --filename=ants98.nc --length=200 --seed=18;
-mkdir -p serialjobdir99 && cd serialjobdir99 && ../antsontable --filename=ants99.nc --length=200 --seed=19;
-mkdir -p serialjobdir100 && cd serialjobdir100 && ../antsontable --filename=ants100.nc --length=200 --seed=20;
-mkdir -p serialjobdir101 && cd serialjobdir101 && ../antsontable --filename=ants101.nc --length=200 --seed=21;
-mkdir -p serialjobdir102 && cd serialjobdir102 && ../antsontable --filename=ants102.nc --length=200 --seed=22;
-mkdir -p serialjobdir103 && cd serialjobdir103 && ../antsontable --filename=ants103.nc --length=200 --seed=23;
-mkdir -p serialjobdir104 && cd serialjobdir104 && ../antsontable --filename=ants104.nc --length=200 --seed=24;
-mkdir -p serialjobdir105 && cd serialjobdir105 && ../antsontable --filename=ants105.nc --length=200 --seed=25;
-mkdir -p serialjobdir106 && cd serialjobdir106 && ../antsontable --filename=ants106.nc --length=200 --seed=26;
-mkdir -p serialjobdir107 && cd serialjobdir107 && ../antsontable --filename=ants107.nc --length=200 --seed=27;
-mkdir -p serialjobdir108 && cd serialjobdir108 && ../antsontable --filename=ants108.nc --length=200 --seed=28;
-mkdir -p serialjobdir109 && cd serialjobdir109 && ../antsontable --filename=ants109.nc --length=200 --seed=29;
-mkdir -p serialjobdir110 && cd serialjobdir110 && ../antsontable --filename=ants110.nc --length=200 --seed=30;
-mkdir -p serialjobdir111 && cd serialjobdir111 && ../antsontable --filename=ants111.nc --length=200 --seed=31;
-mkdir -p serialjobdir112 && cd serialjobdir112 && ../antsontable --filename=ants112.nc --length=200 --seed=32;
-mkdir -p serialjobdir113 && cd serialjobdir113 && ../antsontable --filename=ants113.nc --length=200 --seed=33;
-mkdir -p serialjobdir114 && cd serialjobdir114 && ../antsontable --filename=ants114.nc --length=200 --seed=34;
-mkdir -p serialjobdir115 && cd serialjobdir115 && ../antsontable --filename=ants115.nc --length=200 --seed=35;
-mkdir -p serialjobdir116 && cd serialjobdir116 && ../antsontable --filename=ants116.nc --length=200 --seed=36;
-mkdir -p serialjobdir117 && cd serialjobdir117 && ../antsontable --filename=ants117.nc --length=200 --seed=37;
-mkdir -p serialjobdir118 && cd serialjobdir118 && ../antsontable --filename=ants118.nc --length=200 --seed=38;
-mkdir -p serialjobdir119 && cd serialjobdir119 && ../antsontable --filename=ants119.nc --length=200 --seed=39;
-mkdir -p serialjobdir120 && cd serialjobdir120 && ../antsontable --filename=ants120.nc --length=200 --seed=40;
-mkdir -p serialjobdir121 && cd serialjobdir121 && ../antsontable --filename=ants121.nc --length=250 --seed=1;
-mkdir -p serialjobdir122 && cd serialjobdir122 && ../antsontable --filename=ants122.nc --length=250 --seed=2;
-mkdir -p serialjobdir123 && cd serialjobdir123 && ../antsontable --filename=ants123.nc --length=250 --seed=3;
-mkdir -p serialjobdir124 && cd serialjobdir124 && ../antsontable --filename=ants124.nc --length=250 --seed=4;
-mkdir -p serialjobdir125 && cd serialjobdir125 && ../antsontable --filename=ants125.nc --length=250 --seed=5;
-mkdir -p serialjobdir126 && cd serialjobdir126 && ../antsontable --filename=ants126.nc --length=250 --seed=6;
-mkdir -p serialjobdir127 && cd serialjobdir127 && ../antsontable --filename=ants127.nc --length=250 --seed=7;
-mkdir -p serialjobdir128 && cd serialjobdir128 && ../antsontable --filename=ants128.nc --length=250 --seed=8;
-mkdir -p serialjobdir129 && cd serialjobdir129 && ../antsontable --filename=ants129.nc --length=250 --seed=9;
-mkdir -p serialjobdir130 && cd serialjobdir130 && ../antsontable --filename=ants130.nc --length=250 --seed=10;
-mkdir -p serialjobdir131 && cd serialjobdir131 && ../antsontable --filename=ants131.nc --length=250 --seed=11;
-mkdir -p serialjobdir132 && cd serialjobdir132 && ../antsontable --filename=ants132.nc --length=250 --seed=12;
-mkdir -p serialjobdir133 && cd serialjobdir133 && ../antsontable --filename=ants133.nc --length=250 --seed=13;
-mkdir -p serialjobdir134 && cd serialjobdir134 && ../antsontable --filename=ants134.nc --length=250 --seed=14;
-mkdir -p serialjobdir135 && cd serialjobdir135 && ../antsontable --filename=ants135.nc --length=250 --seed=15;
-mkdir -p serialjobdir136 && cd serialjobdir136 && ../antsontable --filename=ants136.nc --length=250 --seed=16;
-mkdir -p serialjobdir137 && cd serialjobdir137 && ../antsontable --filename=ants137.nc --length=250 --seed=17;
-mkdir -p serialjobdir138 && cd serialjobdir138 && ../antsontable --filename=ants138.nc --length=250 --seed=18;
-mkdir -p serialjobdir139 && cd serialjobdir139 && ../antsontable --filename=ants139.nc --length=250 --seed=19;
-mkdir -p serialjobdir140 && cd serialjobdir140 && ../antsontable --filename=ants140.nc --length=250 --seed=20;
-mkdir -p serialjobdir141 && cd serialjobdir141 && ../antsontable --filename=ants141.nc --length=250 --seed=21;
-mkdir -p serialjobdir142 && cd serialjobdir142 && ../antsontable --filename=ants142.nc --length=250 --seed=22;
-mkdir -p serialjobdir143 && cd serialjobdir143 && ../antsontable --filename=ants143.nc --length=250 --seed=23;
-mkdir -p serialjobdir144 && cd serialjobdir144 && ../antsontable --filename=ants144.nc --length=250 --seed=24;
-mkdir -p serialjobdir145 && cd serialjobdir145 && ../antsontable --filename=ants145.nc --length=250 --seed=25;
-mkdir -p serialjobdir146 && cd serialjobdir146 && ../antsontable --filename=ants146.nc --length=250 --seed=26;
-mkdir -p serialjobdir147 && cd serialjobdir147 && ../antsontable --filename=ants147.nc --length=250 --seed=27;
-mkdir -p serialjobdir148 && cd serialjobdir148 && ../antsontable --filename=ants148.nc --length=250 --seed=28;
-mkdir -p serialjobdir149 && cd serialjobdir149 && ../antsontable --filename=ants149.nc --length=250 --seed=29;
-mkdir -p serialjobdir150 && cd serialjobdir150 && ../antsontable --filename=ants150.nc --length=250 --seed=30;
-mkdir -p serialjobdir151 && cd serialjobdir151 && ../antsontable --filename=ants151.nc --length=250 --seed=31;
-mkdir -p serialjobdir152 && cd serialjobdir152 && ../antsontable --filename=ants152.nc --length=250 --seed=32;
-mkdir -p serialjobdir153 && cd serialjobdir153 && ../antsontable --filename=ants153.nc --length=250 --seed=33;
-mkdir -p serialjobdir154 && cd serialjobdir154 && ../antsontable --filename=ants154.nc --length=250 --seed=34;
-mkdir -p serialjobdir155 && cd serialjobdir155 && ../antsontable --filename=ants155.nc --length=250 --seed=35;
-mkdir -p serialjobdir156 && cd serialjobdir156 && ../antsontable --filename=ants156.nc --length=250 --seed=36;
-mkdir -p serialjobdir157 && cd serialjobdir157 && ../antsontable --filename=ants157.nc --length=250 --seed=37;
-mkdir -p serialjobdir158 && cd serialjobdir158 && ../antsontable --filename=ants158.nc --length=250 --seed=38;
-mkdir -p serialjobdir159 && cd serialjobdir159 && ../antsontable --filename=ants159.nc --length=250 --seed=39;
-mkdir -p serialjobdir160 && cd serialjobdir160 && ../antsontable --filename=ants160.nc --length=250 --seed=40;
-mkdir -p serialjobdir161 && cd serialjobdir161 && ../antsontable --filename=ants161.nc --length=300 --seed=1;
-mkdir -p serialjobdir162 && cd serialjobdir162 && ../antsontable --filename=ants162.nc --length=300 --seed=2;
-mkdir -p serialjobdir163 && cd serialjobdir163 && ../antsontable --filename=ants163.nc --length=300 --seed=3;
-mkdir -p serialjobdir164 && cd serialjobdir164 && ../antsontable --filename=ants164.nc --length=300 --seed=4;
-mkdir -p serialjobdir165 && cd serialjobdir165 && ../antsontable --filename=ants165.nc --length=300 --seed=5;
-mkdir -p serialjobdir166 && cd serialjobdir166 && ../antsontable --filename=ants166.nc --length=300 --seed=6;
-mkdir -p serialjobdir167 && cd serialjobdir167 && ../antsontable --filename=ants167.nc --length=300 --seed=7;
-mkdir -p serialjobdir168 && cd serialjobdir168 && ../antsontable --filename=ants168.nc --length=300 --seed=8;
-mkdir -p serialjobdir169 && cd serialjobdir169 && ../antsontable --filename=ants169.nc --length=300 --seed=9;
-mkdir -p serialjobdir170 && cd serialjobdir170 && ../antsontable --filename=ants170.nc --length=300 --seed=10;
-mkdir -p serialjobdir171 && cd serialjobdir171 && ../antsontable --filename=ants171.nc --length=300 --seed=11;
-mkdir -p serialjobdir172 && cd serialjobdir172 && ../antsontable --filename=ants172.nc --length=300 --seed=12;
-mkdir -p serialjobdir173 && cd serialjobdir173 && ../antsontable --filename=ants173.nc --length=300 --seed=13;
-mkdir -p serialjobdir174 && cd serialjobdir174 && ../antsontable --filename=ants174.nc --length=300 --seed=14;
-mkdir -p serialjobdir175 && cd serialjobdir175 && ../antsontable --filename=ants175.nc --length=300 --seed=15;
-mkdir -p serialjobdir176 && cd serialjobdir176 && ../antsontable --filename=ants176.nc --length=300 --seed=16;
-mkdir -p serialjobdir177 && cd serialjobdir177 && ../antsontable --filename=ants177.nc --length=300 --seed=17;
-mkdir -p serialjobdir178 && cd serialjobdir178 && ../antsontable --filename=ants178.nc --length=300 --seed=18;
-mkdir -p serialjobdir179 && cd serialjobdir179 && ../antsontable --filename=ants179.nc --length=300 --seed=19;
-mkdir -p serialjobdir180 && cd serialjobdir180 && ../antsontable --filename=ants180.nc --length=300 --seed=20;
-mkdir -p serialjobdir181 && cd serialjobdir181 && ../antsontable --filename=ants181.nc --length=300 --seed=21;
-mkdir -p serialjobdir182 && cd serialjobdir182 && ../antsontable --filename=ants182.nc --length=300 --seed=22;
-mkdir -p serialjobdir183 && cd serialjobdir183 && ../antsontable --filename=ants183.nc --length=300 --seed=23;
-mkdir -p serialjobdir184 && cd serialjobdir184 && ../antsontable --filename=ants184.nc --length=300 --seed=24;
-mkdir -p serialjobdir185 && cd serialjobdir185 && ../antsontable --filename=ants185.nc --length=300 --seed=25;
-mkdir -p serialjobdir186 && cd serialjobdir186 && ../antsontable --filename=ants186.nc --length=300 --seed=26;
-mkdir -p serialjobdir187 && cd serialjobdir187 && ../antsontable --filename=ants187.nc --length=300 --seed=27;
-mkdir -p serialjobdir188 && cd serialjobdir188 && ../antsontable --filename=ants188.nc --length=300 --seed=28;
-mkdir -p serialjobdir189 && cd serialjobdir189 && ../antsontable --filename=ants189.nc --length=300 --seed=29;
-mkdir -p serialjobdir190 && cd serialjobdir190 && ../antsontable --filename=ants190.nc --length=300 --seed=30;
-mkdir -p serialjobdir191 && cd serialjobdir191 && ../antsontable --filename=ants191.nc --length=300 --seed=31;
-mkdir -p serialjobdir192 && cd serialjobdir192 && ../antsontable --filename=ants192.nc --length=300 --seed=32;
-mkdir -p serialjobdir193 && cd serialjobdir193 && ../antsontable --filename=ants193.nc --length=300 --seed=33;
-mkdir -p serialjobdir194 && cd serialjobdir194 && ../antsontable --filename=ants194.nc --length=300 --seed=34;
-mkdir -p serialjobdir195 && cd serialjobdir195 && ../antsontable --filename=ants195.nc --length=300 --seed=35;
-mkdir -p serialjobdir196 && cd serialjobdir196 && ../antsontable --filename=ants196.nc --length=300 --seed=36;
-mkdir -p serialjobdir197 && cd serialjobdir197 && ../antsontable --filename=ants197.nc --length=300 --seed=37;
-mkdir -p serialjobdir198 && cd serialjobdir198 && ../antsontable --filename=ants198.nc --length=300 --seed=38;
-mkdir -p serialjobdir199 && cd serialjobdir199 && ../antsontable --filename=ants199.nc --length=300 --seed=39;
-mkdir -p serialjobdir200 && cd serialjobdir200 && ../antsontable --filename=ants200.nc --length=300 --seed=40;
+mkdir -p serialjobdir1 && cd serialjobdir1 && ../antsontable --filename=ants1.nc --length=100 --seed=1; echo "Job 1 Done" 
+mkdir -p serialjobdir2 && cd serialjobdir2 && ../antsontable --filename=ants2.nc --length=100 --seed=2; echo "Job 2 Done" 
+mkdir -p serialjobdir3 && cd serialjobdir3 && ../antsontable --filename=ants3.nc --length=100 --seed=3; echo "Job 3 Done" 
+mkdir -p serialjobdir4 && cd serialjobdir4 && ../antsontable --filename=ants4.nc --length=100 --seed=4; echo "Job 4 Done" 
+mkdir -p serialjobdir5 && cd serialjobdir5 && ../antsontable --filename=ants5.nc --length=100 --seed=5; echo "Job 5 Done" 
+mkdir -p serialjobdir6 && cd serialjobdir6 && ../antsontable --filename=ants6.nc --length=100 --seed=6; echo "Job 6 Done" 
+mkdir -p serialjobdir7 && cd serialjobdir7 && ../antsontable --filename=ants7.nc --length=100 --seed=7; echo "Job 7 Done" 
+mkdir -p serialjobdir8 && cd serialjobdir8 && ../antsontable --filename=ants8.nc --length=100 --seed=8; echo "Job 8 Done" 
+mkdir -p serialjobdir9 && cd serialjobdir9 && ../antsontable --filename=ants9.nc --length=100 --seed=9; echo "Job 9 Done" 
+mkdir -p serialjobdir10 && cd serialjobdir10 && ../antsontable --filename=ants10.nc --length=100 --seed=10; echo "Job 10 Done" 
+mkdir -p serialjobdir11 && cd serialjobdir11 && ../antsontable --filename=ants11.nc --length=100 --seed=11; echo "Job 11 Done" 
+mkdir -p serialjobdir12 && cd serialjobdir12 && ../antsontable --filename=ants12.nc --length=100 --seed=12; echo "Job 12 Done" 
+mkdir -p serialjobdir13 && cd serialjobdir13 && ../antsontable --filename=ants13.nc --length=100 --seed=13; echo "Job 13 Done" 
+mkdir -p serialjobdir14 && cd serialjobdir14 && ../antsontable --filename=ants14.nc --length=100 --seed=14; echo "Job 14 Done" 
+mkdir -p serialjobdir15 && cd serialjobdir15 && ../antsontable --filename=ants15.nc --length=100 --seed=15; echo "Job 15 Done" 
+mkdir -p serialjobdir16 && cd serialjobdir16 && ../antsontable --filename=ants16.nc --length=100 --seed=16; echo "Job 16 Done" 
+mkdir -p serialjobdir17 && cd serialjobdir17 && ../antsontable --filename=ants17.nc --length=100 --seed=17; echo "Job 17 Done" 
+mkdir -p serialjobdir18 && cd serialjobdir18 && ../antsontable --filename=ants18.nc --length=100 --seed=18; echo "Job 18 Done" 
+mkdir -p serialjobdir19 && cd serialjobdir19 && ../antsontable --filename=ants19.nc --length=100 --seed=19; echo "Job 19 Done" 
+mkdir -p serialjobdir20 && cd serialjobdir20 && ../antsontable --filename=ants20.nc --length=100 --seed=20; echo "Job 20 Done" 
+mkdir -p serialjobdir21 && cd serialjobdir21 && ../antsontable --filename=ants21.nc --length=100 --seed=21; echo "Job 21 Done" 
+mkdir -p serialjobdir22 && cd serialjobdir22 && ../antsontable --filename=ants22.nc --length=100 --seed=22; echo "Job 22 Done" 
+mkdir -p serialjobdir23 && cd serialjobdir23 && ../antsontable --filename=ants23.nc --length=100 --seed=23; echo "Job 23 Done" 
+mkdir -p serialjobdir24 && cd serialjobdir24 && ../antsontable --filename=ants24.nc --length=100 --seed=24; echo "Job 24 Done" 
+mkdir -p serialjobdir25 && cd serialjobdir25 && ../antsontable --filename=ants25.nc --length=100 --seed=25; echo "Job 25 Done" 
+mkdir -p serialjobdir26 && cd serialjobdir26 && ../antsontable --filename=ants26.nc --length=100 --seed=26; echo "Job 26 Done" 
+mkdir -p serialjobdir27 && cd serialjobdir27 && ../antsontable --filename=ants27.nc --length=100 --seed=27; echo "Job 27 Done" 
+mkdir -p serialjobdir28 && cd serialjobdir28 && ../antsontable --filename=ants28.nc --length=100 --seed=28; echo "Job 28 Done" 
+mkdir -p serialjobdir29 && cd serialjobdir29 && ../antsontable --filename=ants29.nc --length=100 --seed=29; echo "Job 29 Done" 
+mkdir -p serialjobdir30 && cd serialjobdir30 && ../antsontable --filename=ants30.nc --length=100 --seed=30; echo "Job 30 Done" 
+mkdir -p serialjobdir31 && cd serialjobdir31 && ../antsontable --filename=ants31.nc --length=100 --seed=31; echo "Job 31 Done" 
+mkdir -p serialjobdir32 && cd serialjobdir32 && ../antsontable --filename=ants32.nc --length=100 --seed=32; echo "Job 32 Done" 
+mkdir -p serialjobdir33 && cd serialjobdir33 && ../antsontable --filename=ants33.nc --length=100 --seed=33; echo "Job 33 Done" 
+mkdir -p serialjobdir34 && cd serialjobdir34 && ../antsontable --filename=ants34.nc --length=100 --seed=34; echo "Job 34 Done" 
+mkdir -p serialjobdir35 && cd serialjobdir35 && ../antsontable --filename=ants35.nc --length=100 --seed=35; echo "Job 35 Done" 
+mkdir -p serialjobdir36 && cd serialjobdir36 && ../antsontable --filename=ants36.nc --length=100 --seed=36; echo "Job 36 Done" 
+mkdir -p serialjobdir37 && cd serialjobdir37 && ../antsontable --filename=ants37.nc --length=100 --seed=37; echo "Job 37 Done" 
+mkdir -p serialjobdir38 && cd serialjobdir38 && ../antsontable --filename=ants38.nc --length=100 --seed=38; echo "Job 38 Done" 
+mkdir -p serialjobdir39 && cd serialjobdir39 && ../antsontable --filename=ants39.nc --length=100 --seed=39; echo "Job 39 Done" 
+mkdir -p serialjobdir40 && cd serialjobdir40 && ../antsontable --filename=ants40.nc --length=100 --seed=40; echo "Job 40 Done" 
+mkdir -p serialjobdir41 && cd serialjobdir41 && ../antsontable --filename=ants41.nc --length=150 --seed=1; echo "Job 41 Done" 
+mkdir -p serialjobdir42 && cd serialjobdir42 && ../antsontable --filename=ants42.nc --length=150 --seed=2; echo "Job 42 Done" 
+mkdir -p serialjobdir43 && cd serialjobdir43 && ../antsontable --filename=ants43.nc --length=150 --seed=3; echo "Job 43 Done" 
+mkdir -p serialjobdir44 && cd serialjobdir44 && ../antsontable --filename=ants44.nc --length=150 --seed=4; echo "Job 44 Done" 
+mkdir -p serialjobdir45 && cd serialjobdir45 && ../antsontable --filename=ants45.nc --length=150 --seed=5; echo "Job 45 Done" 
+mkdir -p serialjobdir46 && cd serialjobdir46 && ../antsontable --filename=ants46.nc --length=150 --seed=6; echo "Job 46 Done" 
+mkdir -p serialjobdir47 && cd serialjobdir47 && ../antsontable --filename=ants47.nc --length=150 --seed=7; echo "Job 47 Done" 
+mkdir -p serialjobdir48 && cd serialjobdir48 && ../antsontable --filename=ants48.nc --length=150 --seed=8; echo "Job 48 Done" 
+mkdir -p serialjobdir49 && cd serialjobdir49 && ../antsontable --filename=ants49.nc --length=150 --seed=9; echo "Job 49 Done" 
+mkdir -p serialjobdir50 && cd serialjobdir50 && ../antsontable --filename=ants50.nc --length=150 --seed=10; echo "Job 50 Done" 
+mkdir -p serialjobdir51 && cd serialjobdir51 && ../antsontable --filename=ants51.nc --length=150 --seed=11; echo "Job 51 Done" 
+mkdir -p serialjobdir52 && cd serialjobdir52 && ../antsontable --filename=ants52.nc --length=150 --seed=12; echo "Job 52 Done" 
+mkdir -p serialjobdir53 && cd serialjobdir53 && ../antsontable --filename=ants53.nc --length=150 --seed=13; echo "Job 53 Done" 
+mkdir -p serialjobdir54 && cd serialjobdir54 && ../antsontable --filename=ants54.nc --length=150 --seed=14; echo "Job 54 Done" 
+mkdir -p serialjobdir55 && cd serialjobdir55 && ../antsontable --filename=ants55.nc --length=150 --seed=15; echo "Job 55 Done" 
+mkdir -p serialjobdir56 && cd serialjobdir56 && ../antsontable --filename=ants56.nc --length=150 --seed=16; echo "Job 56 Done" 
+mkdir -p serialjobdir57 && cd serialjobdir57 && ../antsontable --filename=ants57.nc --length=150 --seed=17; echo "Job 57 Done" 
+mkdir -p serialjobdir58 && cd serialjobdir58 && ../antsontable --filename=ants58.nc --length=150 --seed=18; echo "Job 58 Done" 
+mkdir -p serialjobdir59 && cd serialjobdir59 && ../antsontable --filename=ants59.nc --length=150 --seed=19; echo "Job 59 Done" 
+mkdir -p serialjobdir60 && cd serialjobdir60 && ../antsontable --filename=ants60.nc --length=150 --seed=20; echo "Job 60 Done" 
+mkdir -p serialjobdir61 && cd serialjobdir61 && ../antsontable --filename=ants61.nc --length=150 --seed=21; echo "Job 61 Done" 
+mkdir -p serialjobdir62 && cd serialjobdir62 && ../antsontable --filename=ants62.nc --length=150 --seed=22; echo "Job 62 Done" 
+mkdir -p serialjobdir63 && cd serialjobdir63 && ../antsontable --filename=ants63.nc --length=150 --seed=23; echo "Job 63 Done" 
+mkdir -p serialjobdir64 && cd serialjobdir64 && ../antsontable --filename=ants64.nc --length=150 --seed=24; echo "Job 64 Done" 
+mkdir -p serialjobdir65 && cd serialjobdir65 && ../antsontable --filename=ants65.nc --length=150 --seed=25; echo "Job 65 Done" 
+mkdir -p serialjobdir66 && cd serialjobdir66 && ../antsontable --filename=ants66.nc --length=150 --seed=26; echo "Job 66 Done" 
+mkdir -p serialjobdir67 && cd serialjobdir67 && ../antsontable --filename=ants67.nc --length=150 --seed=27; echo "Job 67 Done" 
+mkdir -p serialjobdir68 && cd serialjobdir68 && ../antsontable --filename=ants68.nc --length=150 --seed=28; echo "Job 68 Done" 
+mkdir -p serialjobdir69 && cd serialjobdir69 && ../antsontable --filename=ants69.nc --length=150 --seed=29; echo "Job 69 Done" 
+mkdir -p serialjobdir70 && cd serialjobdir70 && ../antsontable --filename=ants70.nc --length=150 --seed=30; echo "Job 70 Done" 
+mkdir -p serialjobdir71 && cd serialjobdir71 && ../antsontable --filename=ants71.nc --length=150 --seed=31; echo "Job 71 Done" 
+mkdir -p serialjobdir72 && cd serialjobdir72 && ../antsontable --filename=ants72.nc --length=150 --seed=32; echo "Job 72 Done" 
+mkdir -p serialjobdir73 && cd serialjobdir73 && ../antsontable --filename=ants73.nc --length=150 --seed=33; echo "Job 73 Done" 
+mkdir -p serialjobdir74 && cd serialjobdir74 && ../antsontable --filename=ants74.nc --length=150 --seed=34; echo "Job 74 Done" 
+mkdir -p serialjobdir75 && cd serialjobdir75 && ../antsontable --filename=ants75.nc --length=150 --seed=35; echo "Job 75 Done" 
+mkdir -p serialjobdir76 && cd serialjobdir76 && ../antsontable --filename=ants76.nc --length=150 --seed=36; echo "Job 76 Done" 
+mkdir -p serialjobdir77 && cd serialjobdir77 && ../antsontable --filename=ants77.nc --length=150 --seed=37; echo "Job 77 Done" 
+mkdir -p serialjobdir78 && cd serialjobdir78 && ../antsontable --filename=ants78.nc --length=150 --seed=38; echo "Job 78 Done" 
+mkdir -p serialjobdir79 && cd serialjobdir79 && ../antsontable --filename=ants79.nc --length=150 --seed=39; echo "Job 79 Done" 
+mkdir -p serialjobdir80 && cd serialjobdir80 && ../antsontable --filename=ants80.nc --length=150 --seed=40; echo "Job 80 Done" 
+mkdir -p serialjobdir81 && cd serialjobdir81 && ../antsontable --filename=ants81.nc --length=200 --seed=1; echo "Job 81 Done" 
+mkdir -p serialjobdir82 && cd serialjobdir82 && ../antsontable --filename=ants82.nc --length=200 --seed=2; echo "Job 82 Done" 
+mkdir -p serialjobdir83 && cd serialjobdir83 && ../antsontable --filename=ants83.nc --length=200 --seed=3; echo "Job 83 Done" 
+mkdir -p serialjobdir84 && cd serialjobdir84 && ../antsontable --filename=ants84.nc --length=200 --seed=4; echo "Job 84 Done" 
+mkdir -p serialjobdir85 && cd serialjobdir85 && ../antsontable --filename=ants85.nc --length=200 --seed=5; echo "Job 85 Done" 
+mkdir -p serialjobdir86 && cd serialjobdir86 && ../antsontable --filename=ants86.nc --length=200 --seed=6; echo "Job 86 Done" 
+mkdir -p serialjobdir87 && cd serialjobdir87 && ../antsontable --filename=ants87.nc --length=200 --seed=7; echo "Job 87 Done" 
+mkdir -p serialjobdir88 && cd serialjobdir88 && ../antsontable --filename=ants88.nc --length=200 --seed=8; echo "Job 88 Done" 
+mkdir -p serialjobdir89 && cd serialjobdir89 && ../antsontable --filename=ants89.nc --length=200 --seed=9; echo "Job 89 Done" 
+mkdir -p serialjobdir90 && cd serialjobdir90 && ../antsontable --filename=ants90.nc --length=200 --seed=10; echo "Job 90 Done" 
+mkdir -p serialjobdir91 && cd serialjobdir91 && ../antsontable --filename=ants91.nc --length=200 --seed=11; echo "Job 91 Done" 
+mkdir -p serialjobdir92 && cd serialjobdir92 && ../antsontable --filename=ants92.nc --length=200 --seed=12; echo "Job 92 Done" 
+mkdir -p serialjobdir93 && cd serialjobdir93 && ../antsontable --filename=ants93.nc --length=200 --seed=13; echo "Job 93 Done" 
+mkdir -p serialjobdir94 && cd serialjobdir94 && ../antsontable --filename=ants94.nc --length=200 --seed=14; echo "Job 94 Done" 
+mkdir -p serialjobdir95 && cd serialjobdir95 && ../antsontable --filename=ants95.nc --length=200 --seed=15; echo "Job 95 Done" 
+mkdir -p serialjobdir96 && cd serialjobdir96 && ../antsontable --filename=ants96.nc --length=200 --seed=16; echo "Job 96 Done" 
+mkdir -p serialjobdir97 && cd serialjobdir97 && ../antsontable --filename=ants97.nc --length=200 --seed=17; echo "Job 97 Done" 
+mkdir -p serialjobdir98 && cd serialjobdir98 && ../antsontable --filename=ants98.nc --length=200 --seed=18; echo "Job 98 Done" 
+mkdir -p serialjobdir99 && cd serialjobdir99 && ../antsontable --filename=ants99.nc --length=200 --seed=19; echo "Job 99 Done" 
+mkdir -p serialjobdir100 && cd serialjobdir100 && ../antsontable --filename=ants100.nc --length=200 --seed=20; echo "Job 100 Done" 
+mkdir -p serialjobdir101 && cd serialjobdir101 && ../antsontable --filename=ants101.nc --length=200 --seed=21; echo "Job 101 Done" 
+mkdir -p serialjobdir102 && cd serialjobdir102 && ../antsontable --filename=ants102.nc --length=200 --seed=22; echo "Job 102 Done" 
+mkdir -p serialjobdir103 && cd serialjobdir103 && ../antsontable --filename=ants103.nc --length=200 --seed=23; echo "Job 103 Done" 
+mkdir -p serialjobdir104 && cd serialjobdir104 && ../antsontable --filename=ants104.nc --length=200 --seed=24; echo "Job 104 Done" 
+mkdir -p serialjobdir105 && cd serialjobdir105 && ../antsontable --filename=ants105.nc --length=200 --seed=25; echo "Job 105 Done" 
+mkdir -p serialjobdir106 && cd serialjobdir106 && ../antsontable --filename=ants106.nc --length=200 --seed=26; echo "Job 106 Done" 
+mkdir -p serialjobdir107 && cd serialjobdir107 && ../antsontable --filename=ants107.nc --length=200 --seed=27; echo "Job 107 Done" 
+mkdir -p serialjobdir108 && cd serialjobdir108 && ../antsontable --filename=ants108.nc --length=200 --seed=28; echo "Job 108 Done" 
+mkdir -p serialjobdir109 && cd serialjobdir109 && ../antsontable --filename=ants109.nc --length=200 --seed=29; echo "Job 109 Done" 
+mkdir -p serialjobdir110 && cd serialjobdir110 && ../antsontable --filename=ants110.nc --length=200 --seed=30; echo "Job 110 Done" 
+mkdir -p serialjobdir111 && cd serialjobdir111 && ../antsontable --filename=ants111.nc --length=200 --seed=31; echo "Job 111 Done" 
+mkdir -p serialjobdir112 && cd serialjobdir112 && ../antsontable --filename=ants112.nc --length=200 --seed=32; echo "Job 112 Done" 
+mkdir -p serialjobdir113 && cd serialjobdir113 && ../antsontable --filename=ants113.nc --length=200 --seed=33; echo "Job 113 Done" 
+mkdir -p serialjobdir114 && cd serialjobdir114 && ../antsontable --filename=ants114.nc --length=200 --seed=34; echo "Job 114 Done" 
+mkdir -p serialjobdir115 && cd serialjobdir115 && ../antsontable --filename=ants115.nc --length=200 --seed=35; echo "Job 115 Done" 
+mkdir -p serialjobdir116 && cd serialjobdir116 && ../antsontable --filename=ants116.nc --length=200 --seed=36; echo "Job 116 Done" 
+mkdir -p serialjobdir117 && cd serialjobdir117 && ../antsontable --filename=ants117.nc --length=200 --seed=37; echo "Job 117 Done" 
+mkdir -p serialjobdir118 && cd serialjobdir118 && ../antsontable --filename=ants118.nc --length=200 --seed=38; echo "Job 118 Done" 
+mkdir -p serialjobdir119 && cd serialjobdir119 && ../antsontable --filename=ants119.nc --length=200 --seed=39; echo "Job 119 Done" 
+mkdir -p serialjobdir120 && cd serialjobdir120 && ../antsontable --filename=ants120.nc --length=200 --seed=40; echo "Job 120 Done" 
+mkdir -p serialjobdir121 && cd serialjobdir121 && ../antsontable --filename=ants121.nc --length=250 --seed=1; echo "Job 121 Done" 
+mkdir -p serialjobdir122 && cd serialjobdir122 && ../antsontable --filename=ants122.nc --length=250 --seed=2; echo "Job 122 Done" 
+mkdir -p serialjobdir123 && cd serialjobdir123 && ../antsontable --filename=ants123.nc --length=250 --seed=3; echo "Job 123 Done" 
+mkdir -p serialjobdir124 && cd serialjobdir124 && ../antsontable --filename=ants124.nc --length=250 --seed=4; echo "Job 124 Done" 
+mkdir -p serialjobdir125 && cd serialjobdir125 && ../antsontable --filename=ants125.nc --length=250 --seed=5; echo "Job 125 Done" 
+mkdir -p serialjobdir126 && cd serialjobdir126 && ../antsontable --filename=ants126.nc --length=250 --seed=6; echo "Job 126 Done" 
+mkdir -p serialjobdir127 && cd serialjobdir127 && ../antsontable --filename=ants127.nc --length=250 --seed=7; echo "Job 127 Done" 
+mkdir -p serialjobdir128 && cd serialjobdir128 && ../antsontable --filename=ants128.nc --length=250 --seed=8; echo "Job 128 Done" 
+mkdir -p serialjobdir129 && cd serialjobdir129 && ../antsontable --filename=ants129.nc --length=250 --seed=9; echo "Job 129 Done" 
+mkdir -p serialjobdir130 && cd serialjobdir130 && ../antsontable --filename=ants130.nc --length=250 --seed=10; echo "Job 130 Done" 
+mkdir -p serialjobdir131 && cd serialjobdir131 && ../antsontable --filename=ants131.nc --length=250 --seed=11; echo "Job 131 Done" 
+mkdir -p serialjobdir132 && cd serialjobdir132 && ../antsontable --filename=ants132.nc --length=250 --seed=12; echo "Job 132 Done" 
+mkdir -p serialjobdir133 && cd serialjobdir133 && ../antsontable --filename=ants133.nc --length=250 --seed=13; echo "Job 133 Done" 
+mkdir -p serialjobdir134 && cd serialjobdir134 && ../antsontable --filename=ants134.nc --length=250 --seed=14; echo "Job 134 Done" 
+mkdir -p serialjobdir135 && cd serialjobdir135 && ../antsontable --filename=ants135.nc --length=250 --seed=15; echo "Job 135 Done" 
+mkdir -p serialjobdir136 && cd serialjobdir136 && ../antsontable --filename=ants136.nc --length=250 --seed=16; echo "Job 136 Done" 
+mkdir -p serialjobdir137 && cd serialjobdir137 && ../antsontable --filename=ants137.nc --length=250 --seed=17; echo "Job 137 Done" 
+mkdir -p serialjobdir138 && cd serialjobdir138 && ../antsontable --filename=ants138.nc --length=250 --seed=18; echo "Job 138 Done" 
+mkdir -p serialjobdir139 && cd serialjobdir139 && ../antsontable --filename=ants139.nc --length=250 --seed=19; echo "Job 139 Done" 
+mkdir -p serialjobdir140 && cd serialjobdir140 && ../antsontable --filename=ants140.nc --length=250 --seed=20; echo "Job 140 Done" 
+mkdir -p serialjobdir141 && cd serialjobdir141 && ../antsontable --filename=ants141.nc --length=250 --seed=21; echo "Job 141 Done" 
+mkdir -p serialjobdir142 && cd serialjobdir142 && ../antsontable --filename=ants142.nc --length=250 --seed=22; echo "Job 142 Done" 
+mkdir -p serialjobdir143 && cd serialjobdir143 && ../antsontable --filename=ants143.nc --length=250 --seed=23; echo "Job 143 Done" 
+mkdir -p serialjobdir144 && cd serialjobdir144 && ../antsontable --filename=ants144.nc --length=250 --seed=24; echo "Job 144 Done" 
+mkdir -p serialjobdir145 && cd serialjobdir145 && ../antsontable --filename=ants145.nc --length=250 --seed=25; echo "Job 145 Done" 
+mkdir -p serialjobdir146 && cd serialjobdir146 && ../antsontable --filename=ants146.nc --length=250 --seed=26; echo "Job 146 Done" 
+mkdir -p serialjobdir147 && cd serialjobdir147 && ../antsontable --filename=ants147.nc --length=250 --seed=27; echo "Job 147 Done" 
+mkdir -p serialjobdir148 && cd serialjobdir148 && ../antsontable --filename=ants148.nc --length=250 --seed=28; echo "Job 148 Done" 
+mkdir -p serialjobdir149 && cd serialjobdir149 && ../antsontable --filename=ants149.nc --length=250 --seed=29; echo "Job 149 Done" 
+mkdir -p serialjobdir150 && cd serialjobdir150 && ../antsontable --filename=ants150.nc --length=250 --seed=30; echo "Job 150 Done" 
+mkdir -p serialjobdir151 && cd serialjobdir151 && ../antsontable --filename=ants151.nc --length=250 --seed=31; echo "Job 151 Done" 
+mkdir -p serialjobdir152 && cd serialjobdir152 && ../antsontable --filename=ants152.nc --length=250 --seed=32; echo "Job 152 Done" 
+mkdir -p serialjobdir153 && cd serialjobdir153 && ../antsontable --filename=ants153.nc --length=250 --seed=33; echo "Job 153 Done" 
+mkdir -p serialjobdir154 && cd serialjobdir154 && ../antsontable --filename=ants154.nc --length=250 --seed=34; echo "Job 154 Done" 
+mkdir -p serialjobdir155 && cd serialjobdir155 && ../antsontable --filename=ants155.nc --length=250 --seed=35; echo "Job 155 Done" 
+mkdir -p serialjobdir156 && cd serialjobdir156 && ../antsontable --filename=ants156.nc --length=250 --seed=36; echo "Job 156 Done" 
+mkdir -p serialjobdir157 && cd serialjobdir157 && ../antsontable --filename=ants157.nc --length=250 --seed=37; echo "Job 157 Done" 
+mkdir -p serialjobdir158 && cd serialjobdir158 && ../antsontable --filename=ants158.nc --length=250 --seed=38; echo "Job 158 Done" 
+mkdir -p serialjobdir159 && cd serialjobdir159 && ../antsontable --filename=ants159.nc --length=250 --seed=39; echo "Job 159 Done" 
+mkdir -p serialjobdir160 && cd serialjobdir160 && ../antsontable --filename=ants160.nc --length=250 --seed=40; echo "Job 160 Done" 
+mkdir -p serialjobdir161 && cd serialjobdir161 && ../antsontable --filename=ants161.nc --length=300 --seed=1; echo "Job 161 Done" 
+mkdir -p serialjobdir162 && cd serialjobdir162 && ../antsontable --filename=ants162.nc --length=300 --seed=2; echo "Job 162 Done" 
+mkdir -p serialjobdir163 && cd serialjobdir163 && ../antsontable --filename=ants163.nc --length=300 --seed=3; echo "Job 163 Done" 
+mkdir -p serialjobdir164 && cd serialjobdir164 && ../antsontable --filename=ants164.nc --length=300 --seed=4; echo "Job 164 Done" 
+mkdir -p serialjobdir165 && cd serialjobdir165 && ../antsontable --filename=ants165.nc --length=300 --seed=5; echo "Job 165 Done" 
+mkdir -p serialjobdir166 && cd serialjobdir166 && ../antsontable --filename=ants166.nc --length=300 --seed=6; echo "Job 166 Done" 
+mkdir -p serialjobdir167 && cd serialjobdir167 && ../antsontable --filename=ants167.nc --length=300 --seed=7; echo "Job 167 Done" 
+mkdir -p serialjobdir168 && cd serialjobdir168 && ../antsontable --filename=ants168.nc --length=300 --seed=8; echo "Job 168 Done" 
+mkdir -p serialjobdir169 && cd serialjobdir169 && ../antsontable --filename=ants169.nc --length=300 --seed=9; echo "Job 169 Done" 
+mkdir -p serialjobdir170 && cd serialjobdir170 && ../antsontable --filename=ants170.nc --length=300 --seed=10; echo "Job 170 Done" 
+mkdir -p serialjobdir171 && cd serialjobdir171 && ../antsontable --filename=ants171.nc --length=300 --seed=11; echo "Job 171 Done" 
+mkdir -p serialjobdir172 && cd serialjobdir172 && ../antsontable --filename=ants172.nc --length=300 --seed=12; echo "Job 172 Done" 
+mkdir -p serialjobdir173 && cd serialjobdir173 && ../antsontable --filename=ants173.nc --length=300 --seed=13; echo "Job 173 Done" 
+mkdir -p serialjobdir174 && cd serialjobdir174 && ../antsontable --filename=ants174.nc --length=300 --seed=14; echo "Job 174 Done" 
+mkdir -p serialjobdir175 && cd serialjobdir175 && ../antsontable --filename=ants175.nc --length=300 --seed=15; echo "Job 175 Done" 
+mkdir -p serialjobdir176 && cd serialjobdir176 && ../antsontable --filename=ants176.nc --length=300 --seed=16; echo "Job 176 Done" 
+mkdir -p serialjobdir177 && cd serialjobdir177 && ../antsontable --filename=ants177.nc --length=300 --seed=17; echo "Job 177 Done" 
+mkdir -p serialjobdir178 && cd serialjobdir178 && ../antsontable --filename=ants178.nc --length=300 --seed=18; echo "Job 178 Done" 
+mkdir -p serialjobdir179 && cd serialjobdir179 && ../antsontable --filename=ants179.nc --length=300 --seed=19; echo "Job 179 Done" 
+mkdir -p serialjobdir180 && cd serialjobdir180 && ../antsontable --filename=ants180.nc --length=300 --seed=20; echo "Job 180 Done" 
+mkdir -p serialjobdir181 && cd serialjobdir181 && ../antsontable --filename=ants181.nc --length=300 --seed=21; echo "Job 181 Done" 
+mkdir -p serialjobdir182 && cd serialjobdir182 && ../antsontable --filename=ants182.nc --length=300 --seed=22; echo "Job 182 Done" 
+mkdir -p serialjobdir183 && cd serialjobdir183 && ../antsontable --filename=ants183.nc --length=300 --seed=23; echo "Job 183 Done" 
+mkdir -p serialjobdir184 && cd serialjobdir184 && ../antsontable --filename=ants184.nc --length=300 --seed=24; echo "Job 184 Done" 
+mkdir -p serialjobdir185 && cd serialjobdir185 && ../antsontable --filename=ants185.nc --length=300 --seed=25; echo "Job 185 Done" 
+mkdir -p serialjobdir186 && cd serialjobdir186 && ../antsontable --filename=ants186.nc --length=300 --seed=26; echo "Job 186 Done" 
+mkdir -p serialjobdir187 && cd serialjobdir187 && ../antsontable --filename=ants187.nc --length=300 --seed=27; echo "Job 187 Done" 
+mkdir -p serialjobdir188 && cd serialjobdir188 && ../antsontable --filename=ants188.nc --length=300 --seed=28; echo "Job 188 Done" 
+mkdir -p serialjobdir189 && cd serialjobdir189 && ../antsontable --filename=ants189.nc --length=300 --seed=29; echo "Job 189 Done" 
+mkdir -p serialjobdir190 && cd serialjobdir190 && ../antsontable --filename=ants190.nc --length=300 --seed=30; echo "Job 190 Done" 
+mkdir -p serialjobdir191 && cd serialjobdir191 && ../antsontable --filename=ants191.nc --length=300 --seed=31; echo "Job 191 Done" 
+mkdir -p serialjobdir192 && cd serialjobdir192 && ../antsontable --filename=ants192.nc --length=300 --seed=32; echo "Job 192 Done" 
+mkdir -p serialjobdir193 && cd serialjobdir193 && ../antsontable --filename=ants193.nc --length=300 --seed=33; echo "Job 193 Done" 
+mkdir -p serialjobdir194 && cd serialjobdir194 && ../antsontable --filename=ants194.nc --length=300 --seed=34; echo "Job 194 Done" 
+mkdir -p serialjobdir195 && cd serialjobdir195 && ../antsontable --filename=ants195.nc --length=300 --seed=35; echo "Job 195 Done" 
+mkdir -p serialjobdir196 && cd serialjobdir196 && ../antsontable --filename=ants196.nc --length=300 --seed=36; echo "Job 196 Done" 
+mkdir -p serialjobdir197 && cd serialjobdir197 && ../antsontable --filename=ants197.nc --length=300 --seed=37; echo "Job 197 Done" 
+mkdir -p serialjobdir198 && cd serialjobdir198 && ../antsontable --filename=ants198.nc --length=300 --seed=38; echo "Job 198 Done" 
+mkdir -p serialjobdir199 && cd serialjobdir199 && ../antsontable --filename=ants199.nc --length=300 --seed=39; echo "Job 199 Done" 
+mkdir -p serialjobdir200 && cd serialjobdir200 && ../antsontable --filename=ants200.nc --length=300 --seed=40; echo "Job 200 Done" 
