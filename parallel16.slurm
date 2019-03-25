@@ -16,7 +16,7 @@ cd $SLURM_SUBMIT_DIR
 export OMP_NUM_THREADS=1
  
 # EXECUTION COMMAND 
-parallel --joblog runs16.log -j $SLURM_TASKS_PER_NODE \ --no-run-if-empty < subjobs
+parallel --joblog runs16.log -j $SLURM_TASKS_PER_NODE --no-run-if-empty < subjobs
 
 
 
