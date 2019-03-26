@@ -1,5 +1,5 @@
 CXX=g++
-CXXFLAGS=-std=c++11 -g -O0 -march=native -ftree-vectorize -Wall
+CXXFLAGS=-std=c++11 -g -O2 -march=native -ftree-vectorize -Wall
 
 LDFLAGS=-g
 LDLIBS=-lnetcdf_c++4
