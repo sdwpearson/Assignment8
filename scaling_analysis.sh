@@ -7,7 +7,7 @@ sbatch parallel15.slurm
 echo "submitted 15 core job"
 sbatch parallel14.slurm
 echo "submitted 14 core job"
-sbatch parallel13slurm
+sbatch parallel13.slurm
 echo "submitted 13 core job"
 sbatch parallel12.slurm
 echo "submitted 12 core job"
