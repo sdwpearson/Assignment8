@@ -1,0 +1,8 @@
+Command I tested on Teach cluster
+
+./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=4
+
+
+
+
+
