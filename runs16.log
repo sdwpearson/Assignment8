@@ -1,242 +1,201 @@
 Seq	Host	Starttime	JobRuntime	Send	Receive	Exitval	Signal	Command
-4	:	1553462922.088	     0.246	0	109043	0	0	mkdir serialjobdir004 && ./antsontable --length=004 --seed=004
-2	:	1553462922.081	     0.260	0	108964	0	0	mkdir serialjobdir002 && ./antsontable --length=002 --seed=002
-3	:	1553462922.085	     0.261	0	108994	0	0	mkdir serialjobdir003 && ./antsontable --length=003 --seed=003
-1	:	1553462922.077	     0.275	0	108938	0	0	mkdir serialjobdir001 && ./antsontable --length=001 --seed=001
-5	:	1553462922.092	     0.263	0	109093	0	0	mkdir serialjobdir005 && ./antsontable --length=005 --seed=005
-6	:	1553462922.095	     0.264	0	109136	0	0	mkdir serialjobdir006 && ./antsontable --length=006 --seed=006
-7	:	1553462922.098	     0.276	0	109208	0	0	mkdir serialjobdir007 && ./antsontable --length=007 --seed=007
-8	:	1553462922.101	     0.277	0	109268	0	0	mkdir serialjobdir008 && ./antsontable --length=008 --seed=008
-9	:	1553462922.104	     0.292	0	109348	0	0	mkdir serialjobdir009 && ./antsontable --length=009 --seed=009
-10	:	1553462922.107	     0.300	0	109392	0	0	mkdir serialjobdir010 && ./antsontable --length=010 --seed=010
-11	:	1553462922.110	     0.309	0	109504	0	0	mkdir serialjobdir011 && ./antsontable --length=011 --seed=011
-12	:	1553462922.112	     0.339	0	109616	0	0	mkdir serialjobdir012 && ./antsontable --length=012 --seed=012
-13	:	1553462922.115	     0.355	0	109695	0	0	mkdir serialjobdir013 && ./antsontable --length=013 --seed=013
-14	:	1553462922.117	     0.382	0	109781	0	0	mkdir serialjobdir014 && ./antsontable --length=014 --seed=014
-15	:	1553462922.120	     0.411	0	109932	0	0	mkdir serialjobdir015 && ./antsontable --length=015 --seed=015
-16	:	1553462922.123	     0.436	0	110053	0	0	mkdir serialjobdir016 && ./antsontable --length=016 --seed=016
-17	:	1553462922.341	     0.365	0	110190	0	0	mkdir serialjobdir017 && ./antsontable --length=017 --seed=017
-18	:	1553462922.347	     0.401	0	110318	0	0	mkdir serialjobdir018 && ./antsontable --length=018 --seed=018
-19	:	1553462922.351	     0.467	0	110419	0	0	mkdir serialjobdir019 && ./antsontable --length=019 --seed=019
-20	:	1553462922.355	     0.536	0	110688	0	0	mkdir serialjobdir020 && ./antsontable --length=020 --seed=020
-21	:	1553462922.360	     0.573	0	110778	0	0	mkdir serialjobdir021 && ./antsontable --length=021 --seed=021
-22	:	1553462922.365	     0.618	0	110948	0	0	mkdir serialjobdir022 && ./antsontable --length=022 --seed=022
-23	:	1553462922.379	     0.679	0	111100	0	0	mkdir serialjobdir023 && ./antsontable --length=023 --seed=023
-24	:	1553462922.384	     0.744	0	111301	0	0	mkdir serialjobdir024 && ./antsontable --length=024 --seed=024
-25	:	1553462922.402	     0.822	0	111414	0	0	mkdir serialjobdir025 && ./antsontable --length=025 --seed=025
-26	:	1553462922.416	     0.915	0	111582	0	0	mkdir serialjobdir026 && ./antsontable --length=026 --seed=026
-27	:	1553462922.424	     1.014	0	111824	0	0	mkdir serialjobdir027 && ./antsontable --length=027 --seed=027
-28	:	1553462922.456	     1.115	0	112019	0	0	mkdir serialjobdir028 && ./antsontable --length=028 --seed=028
-29	:	1553462922.476	     1.226	0	112322	0	0	mkdir serialjobdir029 && ./antsontable --length=029 --seed=029
-30	:	1553462922.505	     1.315	0	112502	0	0	mkdir serialjobdir030 && ./antsontable --length=030 --seed=030
-31	:	1553462922.536	     1.481	0	112617	0	0	mkdir serialjobdir031 && ./antsontable --length=031 --seed=031
-32	:	1553462922.565	     1.615	0	112859	0	0	mkdir serialjobdir032 && ./antsontable --length=032 --seed=032
-33	:	1553462922.712	     1.714	0	113033	0	0	mkdir serialjobdir033 && ./antsontable --length=033 --seed=033
-34	:	1553462922.753	     1.918	0	113389	0	0	mkdir serialjobdir034 && ./antsontable --length=034 --seed=034
-35	:	1553462922.822	     2.144	0	113717	0	0	mkdir serialjobdir035 && ./antsontable --length=035 --seed=035
-36	:	1553462922.898	     2.220	0	113904	0	0	mkdir serialjobdir036 && ./antsontable --length=036 --seed=036
-37	:	1553462922.937	     2.421	0	114131	0	0	mkdir serialjobdir037 && ./antsontable --length=037 --seed=037
-38	:	1553462922.988	     2.746	0	114554	0	0	mkdir serialjobdir038 && ./antsontable --length=038 --seed=038
-39	:	1553462923.063	     3.074	0	114887	0	0	mkdir serialjobdir039 && ./antsontable --length=039 --seed=039
-40	:	1553462923.134	     3.128	0	115062	0	0	mkdir serialjobdir040 && ./antsontable --length=040 --seed=040
-41	:	1553462923.228	     3.384	0	115410	0	0	mkdir serialjobdir041 && ./antsontable --length=041 --seed=041
-42	:	1553462923.336	     3.539	0	115785	0	0	mkdir serialjobdir042 && ./antsontable --length=042 --seed=042
-43	:	1553462923.444	     3.911	0	116106	0	0	mkdir serialjobdir043 && ./antsontable --length=043 --seed=043
-44	:	1553462923.576	     4.177	0	116099	0	0	mkdir serialjobdir044 && ./antsontable --length=044 --seed=044
-45	:	1553462923.710	     4.529	0	116783	0	0	mkdir serialjobdir045 && ./antsontable --length=045 --seed=045
-46	:	1553462923.825	     4.740	0	116904	0	0	mkdir serialjobdir046 && ./antsontable --length=046 --seed=046
-47	:	1553462924.022	     5.462	0	117352	0	0	mkdir serialjobdir047 && ./antsontable --length=047 --seed=047
-48	:	1553462924.184	     5.507	0	117783	0	0	mkdir serialjobdir048 && ./antsontable --length=048 --seed=048
-49	:	1553462924.430	     6.238	0	118219	0	0	mkdir serialjobdir049 && ./antsontable --length=049 --seed=049
-50	:	1553462924.676	     6.526	0	118022	0	0	mkdir serialjobdir050 && ./antsontable --length=050 --seed=050
-51	:	1553462924.971	     6.753	0	118865	0	0	mkdir serialjobdir051 && ./antsontable --length=051 --seed=051
-52	:	1553462925.123	     7.740	0	119296	0	0	mkdir serialjobdir052 && ./antsontable --length=052 --seed=052
-53	:	1553462925.363	     7.846	0	119298	0	0	mkdir serialjobdir053 && ./antsontable --length=053 --seed=053
-54	:	1553462925.741	     8.114	0	120225	0	0	mkdir serialjobdir054 && ./antsontable --length=054 --seed=054
-55	:	1553462926.141	     8.470	0	120301	0	0	mkdir serialjobdir055 && ./antsontable --length=055 --seed=055
-56	:	1553462926.266	     8.875	0	120686	0	0	mkdir serialjobdir056 && ./antsontable --length=056 --seed=056
-57	:	1553462926.617	     9.321	0	121042	0	0	mkdir serialjobdir057 && ./antsontable --length=057 --seed=057
-58	:	1553462926.880	    10.348	0	121776	0	0	mkdir serialjobdir058 && ./antsontable --length=058 --seed=058
-59	:	1553462927.360	    10.832	0	122079	0	0	mkdir serialjobdir059 && ./antsontable --length=059 --seed=059
-60	:	1553462927.757	    11.924	0	123320	0	0	mkdir serialjobdir060 && ./antsontable --length=060 --seed=060
-61	:	1553462928.243	    11.996	0	123540	0	0	mkdir serialjobdir061 && ./antsontable --length=061 --seed=061
-62	:	1553462928.571	    12.544	0	123474	0	0	mkdir serialjobdir062 && ./antsontable --length=062 --seed=062
-63	:	1553462929.492	    13.740	0	124275	0	0	mkdir serialjobdir063 && ./antsontable --length=063 --seed=063
-64	:	1553462929.717	    14.358	0	124880	0	0	mkdir serialjobdir064 && ./antsontable --length=064 --seed=064
-65	:	1553462930.673	    14.776	0	125082	0	0	mkdir serialjobdir065 && ./antsontable --length=065 --seed=065
-66	:	1553462931.207	    15.476	0	125632	0	0	mkdir serialjobdir066 && ./antsontable --length=066 --seed=066
-67	:	1553462931.729	    16.188	0	126091	0	0	mkdir serialjobdir067 && ./antsontable --length=067 --seed=067
-68	:	1553462932.868	    16.871	0	126605	0	0	mkdir serialjobdir068 && ./antsontable --length=068 --seed=068
-69	:	1553462933.214	    17.507	0	127281	0	0	mkdir serialjobdir069 && ./antsontable --length=069 --seed=069
-70	:	1553462933.859	    18.213	0	127133	0	0	mkdir serialjobdir070 && ./antsontable --length=070 --seed=070
-71	:	1553462934.617	    19.153	0	128259	0	0	mkdir serialjobdir071 && ./antsontable --length=071 --seed=071
-72	:	1553462935.149	    19.764	0	128771	0	0	mkdir serialjobdir072 && ./antsontable --length=072 --seed=072
-73	:	1553462935.944	    20.290	0	128738	0	0	mkdir serialjobdir073 && ./antsontable --length=073 --seed=073
-74	:	1553462937.245	    21.439	0	129782	0	0	mkdir serialjobdir074 && ./antsontable --length=074 --seed=074
-75	:	1553462938.196	    22.180	0	129821	0	0	mkdir serialjobdir075 && ./antsontable --length=075 --seed=075
-76	:	1553462939.686	    23.142	0	131010	0	0	mkdir serialjobdir076 && ./antsontable --length=076 --seed=076
-77	:	1553462940.245	    23.819	0	131278	0	0	mkdir serialjobdir077 && ./antsontable --length=077 --seed=077
-78	:	1553462941.120	    24.791	0	132037	0	0	mkdir serialjobdir078 && ./antsontable --length=078 --seed=078
-79	:	1553462943.237	    25.611	0	132153	0	0	mkdir serialjobdir079 && ./antsontable --length=079 --seed=079
-80	:	1553462944.080	    26.509	0	132626	0	0	mkdir serialjobdir080 && ./antsontable --length=080 --seed=080
-81	:	1553462945.457	    27.484	0	132800	0	0	mkdir serialjobdir081 && ./antsontable --length=081 --seed=081
-82	:	1553462946.689	    28.475	0	133374	0	0	mkdir serialjobdir082 && ./antsontable --length=082 --seed=082
-83	:	1553462947.923	    29.430	0	133826	0	0	mkdir serialjobdir083 && ./antsontable --length=083 --seed=083
-84	:	1553462949.745	    30.442	0	134343	0	0	mkdir serialjobdir084 && ./antsontable --length=084 --seed=084
-85	:	1553462950.726	    31.355	0	134259	0	0	mkdir serialjobdir085 && ./antsontable --length=085 --seed=085
-86	:	1553462952.076	    32.270	0	134260	0	0	mkdir serialjobdir086 && ./antsontable --length=086 --seed=086
-87	:	1553462953.775	    33.585	0	135153	0	0	mkdir serialjobdir087 && ./antsontable --length=087 --seed=087
-88	:	1553462954.917	    34.695	0	135359	0	0	mkdir serialjobdir088 && ./antsontable --length=088 --seed=088
-89	:	1553462956.242	    35.754	0	135905	0	0	mkdir serialjobdir089 && ./antsontable --length=089 --seed=089
-90	:	1553462958.688	    36.549	0	135916	0	0	mkdir serialjobdir090 && ./antsontable --length=090 --seed=090
-91	:	1553462960.382	    37.562	0	136124	0	0	mkdir serialjobdir091 && ./antsontable --length=091 --seed=091
-92	:	1553462962.833	    38.847	0	136693	0	0	mkdir serialjobdir092 && ./antsontable --length=092 --seed=092
-93	:	1553462964.069	    40.217	0	137200	0	0	mkdir serialjobdir093 && ./antsontable --length=093 --seed=093
-94	:	1553462965.916	    41.314	0	137402	0	0	mkdir serialjobdir094 && ./antsontable --length=094 --seed=094
-95	:	1553462968.852	    42.779	0	137688	0	0	mkdir serialjobdir095 && ./antsontable --length=095 --seed=095
-96	:	1553462970.595	    43.395	0	137604	0	0	mkdir serialjobdir096 && ./antsontable --length=096 --seed=096
-97	:	1553462972.948	    45.160	0	137896	0	0	mkdir serialjobdir097 && ./antsontable --length=097 --seed=097
-98	:	1553462975.168	    46.164	0	138075	0	0	mkdir serialjobdir098 && ./antsontable --length=098 --seed=098
-99	:	1553462977.359	    47.341	0	138240	0	0	mkdir serialjobdir099 && ./antsontable --length=099 --seed=099
-100	:	1553462980.192	    48.492	0	138333	0	0	mkdir serialjobdir100 && ./antsontable --length=100 --seed=100
-101	:	1553462982.087	    50.230	0	138705	0	0	mkdir serialjobdir101 && ./antsontable --length=101 --seed=101
-102	:	1553462984.351	    51.059	0	138669	0	0	mkdir serialjobdir102 && ./antsontable --length=102 --seed=102
-103	:	1553462987.365	    52.573	0	138835	0	0	mkdir serialjobdir103 && ./antsontable --length=103 --seed=103
-104	:	1553462989.617	    54.103	0	139106	0	0	mkdir serialjobdir104 && ./antsontable --length=104 --seed=104
-105	:	1553462992.004	    55.288	0	139172	0	0	mkdir serialjobdir105 && ./antsontable --length=105 --seed=105
-106	:	1553462995.242	    56.847	0	139540	0	0	mkdir serialjobdir106 && ./antsontable --length=106 --seed=106
-107	:	1553462997.948	    58.166	0	139451	0	0	mkdir serialjobdir107 && ./antsontable --length=107 --seed=107
-108	:	1553463001.684	    59.295	0	139703	0	0	mkdir serialjobdir108 && ./antsontable --length=108 --seed=108
-109	:	1553463004.290	    60.523	0	139762	0	0	mkdir serialjobdir109 && ./antsontable --length=109 --seed=109
-110	:	1553463007.235	    62.175	0	140060	0	0	mkdir serialjobdir110 && ./antsontable --length=110 --seed=110
-111	:	1553463011.636	    63.828	0	140174	0	0	mkdir serialjobdir111 && ./antsontable --length=111 --seed=111
-112	:	1553463013.998	    65.213	0	140434	0	0	mkdir serialjobdir112 && ./antsontable --length=112 --seed=112
-113	:	1553463018.113	    66.759	0	140696	0	0	mkdir serialjobdir113 && ./antsontable --length=113 --seed=113
-114	:	1553463021.338	    68.274	0	140878	0	0	mkdir serialjobdir114 && ./antsontable --length=114 --seed=114
-115	:	1553463024.705	    69.940	0	141021	0	0	mkdir serialjobdir115 && ./antsontable --length=115 --seed=115
-116	:	1553463028.689	    71.563	0	141324	0	0	mkdir serialjobdir116 && ./antsontable --length=116 --seed=116
-117	:	1553463032.322	    72.707	0	141198	0	0	mkdir serialjobdir117 && ./antsontable --length=117 --seed=117
-118	:	1553463035.415	    74.246	0	141481	0	0	mkdir serialjobdir118 && ./antsontable --length=118 --seed=118
-119	:	1553463039.944	    75.786	0	141477	0	0	mkdir serialjobdir119 && ./antsontable --length=119 --seed=119
-120	:	1553463043.728	    77.365	0	141870	0	0	mkdir serialjobdir120 && ./antsontable --length=120 --seed=120
-121	:	1553463047.296	    78.838	0	141987	0	0	mkdir serialjobdir121 && ./antsontable --length=121 --seed=121
-122	:	1553463052.094	    79.969	0	141974	0	0	mkdir serialjobdir122 && ./antsontable --length=122 --seed=122
-123	:	1553463056.119	    82.117	0	142276	0	0	mkdir serialjobdir123 && ./antsontable --length=123 --seed=123
-124	:	1553463060.983	    83.963	0	142319	0	0	mkdir serialjobdir124 && ./antsontable --length=124 --seed=124
-125	:	1553463064.817	    85.106	0	142372	0	0	mkdir serialjobdir125 && ./antsontable --length=125 --seed=125
-126	:	1553463069.414	    86.545	0	142334	0	0	mkdir serialjobdir126 && ./antsontable --length=126 --seed=126
-127	:	1553463075.471	    88.235	0	142302	0	0	mkdir serialjobdir127 && ./antsontable --length=127 --seed=127
-128	:	1553463079.216	    90.200	0	142378	0	0	mkdir serialjobdir128 && ./antsontable --length=128 --seed=128
-129	:	1553463084.877	    91.835	0	142375	0	0	mkdir serialjobdir129 && ./antsontable --length=129 --seed=129
-130	:	1553463089.619	    93.309	0	142398	0	0	mkdir serialjobdir130 && ./antsontable --length=130 --seed=130
-131	:	1553463094.650	    94.799	0	142444	0	0	mkdir serialjobdir131 && ./antsontable --length=131 --seed=131
-132	:	1553463100.257	    96.933	0	142426	0	0	mkdir serialjobdir132 && ./antsontable --length=132 --seed=132
-133	:	1553463105.034	    98.547	0	142485	0	0	mkdir serialjobdir133 && ./antsontable --length=133 --seed=133
-134	:	1553463109.666	   100.003	0	142515	0	0	mkdir serialjobdir134 && ./antsontable --length=134 --seed=134
-135	:	1553463115.738	   101.328	0	142522	0	0	mkdir serialjobdir135 && ./antsontable --length=135 --seed=135
-136	:	1553463121.097	   103.399	0	142555	0	0	mkdir serialjobdir136 && ./antsontable --length=136 --seed=136
-137	:	1553463126.139	   105.023	0	142590	0	0	mkdir serialjobdir137 && ./antsontable --length=137 --seed=137
-138	:	1553463132.069	   106.471	0	142621	0	0	mkdir serialjobdir138 && ./antsontable --length=138 --seed=138
-139	:	1553463138.241	   108.256	0	142676	0	0	mkdir serialjobdir139 && ./antsontable --length=139 --seed=139
-140	:	1553463144.951	   109.804	0	142691	0	0	mkdir serialjobdir140 && ./antsontable --length=140 --seed=140
-141	:	1553463149.928	   111.486	0	142696	0	0	mkdir serialjobdir141 && ./antsontable --length=141 --seed=141
-142	:	1553463155.968	   113.669	0	142788	0	0	mkdir serialjobdir142 && ./antsontable --length=142 --seed=142
-143	:	1553463163.711	   115.036	0	142849	0	0	mkdir serialjobdir143 && ./antsontable --length=143 --seed=143
-144	:	1553463169.421	   117.604	0	142982	0	0	mkdir serialjobdir144 && ./antsontable --length=144 --seed=144
-145	:	1553463176.718	   118.927	0	142929	0	0	mkdir serialjobdir145 && ./antsontable --length=145 --seed=145
-146	:	1553463182.933	   120.572	0	143014	0	0	mkdir serialjobdir146 && ./antsontable --length=146 --seed=146
-147	:	1553463189.455	   121.411	0	142984	0	0	mkdir serialjobdir147 && ./antsontable --length=147 --seed=147
-148	:	1553463197.195	   124.768	0	143167	0	0	mkdir serialjobdir148 && ./antsontable --length=148 --seed=148
-149	:	1553463203.586	   124.301	0	143039	0	0	mkdir serialjobdir149 && ./antsontable --length=149 --seed=149
-150	:	1553463209.675	   126.924	0	143182	0	0	mkdir serialjobdir150 && ./antsontable --length=150 --seed=150
-151	:	1553463217.071	   128.692	0	143251	0	0	mkdir serialjobdir151 && ./antsontable --length=151 --seed=151
-152	:	1553463224.501	   131.236	0	143365	0	0	mkdir serialjobdir152 && ./antsontable --length=152 --seed=152
-153	:	1553463231.167	   132.251	0	143394	0	0	mkdir serialjobdir153 && ./antsontable --length=153 --seed=153
-154	:	1553463238.546	   134.032	0	143415	0	0	mkdir serialjobdir154 && ./antsontable --length=154 --seed=154
-155	:	1553463246.503	   135.010	0	143493	0	0	mkdir serialjobdir155 && ./antsontable --length=155 --seed=155
-156	:	1553463254.760	   137.529	0	143544	0	0	mkdir serialjobdir156 && ./antsontable --length=156 --seed=156
-157	:	1553463261.421	   138.842	0	143560	0	0	mkdir serialjobdir157 && ./antsontable --length=157 --seed=157
-158	:	1553463269.642	   141.138	0	143686	0	0	mkdir serialjobdir158 && ./antsontable --length=158 --seed=158
-159	:	1553463278.752	   142.761	0	143747	0	0	mkdir serialjobdir159 && ./antsontable --length=159 --seed=159
-160	:	1553463287.030	   145.236	0	143872	0	0	mkdir serialjobdir160 && ./antsontable --length=160 --seed=160
-161	:	1553463295.650	   146.437	0	143852	0	0	mkdir serialjobdir161 && ./antsontable --length=161 --seed=161
-162	:	1553463303.509	   147.728	0	143938	0	0	mkdir serialjobdir162 && ./antsontable --length=162 --seed=162
-163	:	1553463310.871	   150.467	0	144066	0	0	mkdir serialjobdir163 && ./antsontable --length=163 --seed=163
-164	:	1553463321.971	   151.113	0	144052	0	0	mkdir serialjobdir164 && ./antsontable --length=164 --seed=164
-165	:	1553463327.892	   153.391	0	144161	0	0	mkdir serialjobdir165 && ./antsontable --length=165 --seed=165
-166	:	1553463336.604	   154.964	0	144222	0	0	mkdir serialjobdir166 && ./antsontable --length=166 --seed=166
-167	:	1553463345.769	   154.964	0	144223	0	0	mkdir serialjobdir167 && ./antsontable --length=167 --seed=167
-168	:	1553463355.742	   158.148	0	144320	0	0	mkdir serialjobdir168 && ./antsontable --length=168 --seed=168
-169	:	1553463363.424	   160.299	0	144438	0	0	mkdir serialjobdir169 && ./antsontable --length=169 --seed=169
-170	:	1553463372.583	   161.695	0	144432	0	0	mkdir serialjobdir170 && ./antsontable --length=170 --seed=170
-171	:	1553463381.519	   163.738	0	144569	0	0	mkdir serialjobdir171 && ./antsontable --length=171 --seed=171
-172	:	1553463392.332	   164.662	0	144506	0	0	mkdir serialjobdir172 && ./antsontable --length=172 --seed=172
-173	:	1553463400.269	   166.493	0	144631	0	0	mkdir serialjobdir173 && ./antsontable --length=173 --seed=173
-174	:	1553463410.786	   169.059	0	144771	0	0	mkdir serialjobdir174 && ./antsontable --length=174 --seed=174
-175	:	1553463421.519	   170.254	0	144822	0	0	mkdir serialjobdir175 && ./antsontable --length=175 --seed=175
-176	:	1553463432.272	   172.315	0	144925	0	0	mkdir serialjobdir176 && ./antsontable --length=176 --seed=176
-177	:	1553463442.093	   174.489	0	145029	0	0	mkdir serialjobdir177 && ./antsontable --length=177 --seed=177
-178	:	1553463451.243	   175.230	0	145002	0	0	mkdir serialjobdir178 && ./antsontable --length=178 --seed=178
-179	:	1553463461.346	   176.916	0	145006	0	0	mkdir serialjobdir179 && ./antsontable --length=179 --seed=179
-180	:	1553463473.090	   178.134	0	145158	0	0	mkdir serialjobdir180 && ./antsontable --length=180 --seed=180
-181	:	1553463481.288	   181.128	0	145283	0	0	mkdir serialjobdir181 && ./antsontable --length=181 --seed=181
-182	:	1553463491.574	   184.206	0	145485	0	0	mkdir serialjobdir182 && ./antsontable --length=182 --seed=182
-183	:	1553463500.739	   184.451	0	145473	0	0	mkdir serialjobdir183 && ./antsontable --length=183 --seed=183
-184	:	1553463513.895	   185.847	0	145470	0	0	mkdir serialjobdir184 && ./antsontable --length=184 --seed=184
-185	:	1553463523.729	   187.526	0	145567	0	0	mkdir serialjobdir185 && ./antsontable --length=185 --seed=185
-201	:	1553463711.262	     0.087	0	0	1	0	mkdir serialjobdir100 && ./antsontable --length=100 --seed=100
-202	:	1553463711.353	     0.115	0	108938	0	0	mkdir serialjobdir01 && ./antsontable --length=01 --seed=01
-203	:	1553463711.473	     0.116	0	108964	0	0	mkdir serialjobdir02 && ./antsontable --length=02 --seed=02
-204	:	1553463711.594	     0.118	0	108994	0	0	mkdir serialjobdir03 && ./antsontable --length=03 --seed=03
-205	:	1553463711.718	     0.133	0	109043	0	0	mkdir serialjobdir04 && ./antsontable --length=04 --seed=04
-206	:	1553463711.855	     0.121	0	109093	0	0	mkdir serialjobdir05 && ./antsontable --length=05 --seed=05
-207	:	1553463711.982	     0.128	0	109136	0	0	mkdir serialjobdir06 && ./antsontable --length=06 --seed=06
-208	:	1553463712.116	     0.134	0	109208	0	0	mkdir serialjobdir07 && ./antsontable --length=07 --seed=07
-209	:	1553463712.256	     0.168	0	109268	0	0	mkdir serialjobdir08 && ./antsontable --length=08 --seed=08
-210	:	1553463712.430	     0.165	0	109348	0	0	mkdir serialjobdir09 && ./antsontable --length=09 --seed=09
-211	:	1553463712.603	     0.164	0	109392	0	0	mkdir serialjobdir10 && ./antsontable --length=10 --seed=10
-212	:	1553463712.771	     0.193	0	109504	0	0	mkdir serialjobdir11 && ./antsontable --length=11 --seed=11
-213	:	1553463712.969	     0.196	0	109616	0	0	mkdir serialjobdir12 && ./antsontable --length=12 --seed=12
-214	:	1553463713.170	     0.230	0	109695	0	0	mkdir serialjobdir13 && ./antsontable --length=13 --seed=13
-215	:	1553463713.404	     0.240	0	109781	0	0	mkdir serialjobdir14 && ./antsontable --length=14 --seed=14
-216	:	1553463713.648	     0.278	0	109932	0	0	mkdir serialjobdir15 && ./antsontable --length=15 --seed=15
-217	:	1553463713.930	     0.297	0	110053	0	0	mkdir serialjobdir16 && ./antsontable --length=16 --seed=16
-218	:	1553463714.233	     0.333	0	110190	0	0	mkdir serialjobdir17 && ./antsontable --length=17 --seed=17
-219	:	1553463714.571	     0.378	0	110318	0	0	mkdir serialjobdir18 && ./antsontable --length=18 --seed=18
-220	:	1553463714.956	     0.415	0	110419	0	0	mkdir serialjobdir19 && ./antsontable --length=19 --seed=19
-221	:	1553463715.377	     0.475	0	110688	0	0	mkdir serialjobdir20 && ./antsontable --length=20 --seed=20
-222	:	1553463715.858	     0.522	0	110778	0	0	mkdir serialjobdir21 && ./antsontable --length=21 --seed=21
-223	:	1553463716.384	     0.600	0	110948	0	0	mkdir serialjobdir22 && ./antsontable --length=22 --seed=22
-224	:	1553463716.990	     0.650	0	111100	0	0	mkdir serialjobdir23 && ./antsontable --length=23 --seed=23
-225	:	1553463717.644	     0.713	0	111301	0	0	mkdir serialjobdir24 && ./antsontable --length=24 --seed=24
-226	:	1553463718.361	     0.839	0	111414	0	0	mkdir serialjobdir25 && ./antsontable --length=25 --seed=25
-227	:	1553463719.206	     0.878	0	111582	0	0	mkdir serialjobdir26 && ./antsontable --length=26 --seed=26
-228	:	1553463720.088	     0.985	0	111824	0	0	mkdir serialjobdir27 && ./antsontable --length=27 --seed=27
-229	:	1553463721.079	     1.082	0	112019	0	0	mkdir serialjobdir28 && ./antsontable --length=28 --seed=28
-186	:	1553463534.285	   188.439	0	145543	0	0	mkdir serialjobdir186 && ./antsontable --length=186 --seed=186
-230	:	1553463722.169	     1.203	0	112322	0	0	mkdir serialjobdir29 && ./antsontable --length=29 --seed=29
-231	:	1553463722.730	     1.305	0	112502	0	0	mkdir serialjobdir30 && ./antsontable --length=30 --seed=30
-232	:	1553463723.377	     1.485	0	112617	0	0	mkdir serialjobdir31 && ./antsontable --length=31 --seed=31
-233	:	1553463724.039	     1.605	0	112859	0	0	mkdir serialjobdir32 && ./antsontable --length=32 --seed=32
-234	:	1553463724.867	     1.694	0	113033	0	0	mkdir serialjobdir33 && ./antsontable --length=33 --seed=33
-235	:	1553463725.649	     1.917	0	113389	0	0	mkdir serialjobdir34 && ./antsontable --length=34 --seed=34
-236	:	1553463726.566	     2.144	0	113717	0	0	mkdir serialjobdir35 && ./antsontable --length=35 --seed=35
-237	:	1553463727.571	     2.230	0	113904	0	0	mkdir serialjobdir36 && ./antsontable --length=36 --seed=36
-238	:	1553463728.714	     2.417	0	114131	0	0	mkdir serialjobdir37 && ./antsontable --length=37 --seed=37
-239	:	1553463729.809	     2.750	0	114554	0	0	mkdir serialjobdir38 && ./antsontable --length=38 --seed=38
-240	:	1553463731.135	     3.062	0	114887	0	0	mkdir serialjobdir39 && ./antsontable --length=39 --seed=39
-241	:	1553463732.565	     3.129	0	115062	0	0	mkdir serialjobdir40 && ./antsontable --length=40 --seed=40
-187	:	1553463545.263	   191.404	0	145728	0	0	mkdir serialjobdir187 && ./antsontable --length=187 --seed=187
-188	:	1553463557.000	   192.812	0	145821	0	0	mkdir serialjobdir188 && ./antsontable --length=188 --seed=188
-189	:	1553463566.767	   194.065	0	145909	0	0	mkdir serialjobdir189 && ./antsontable --length=189 --seed=189
-190	:	1553463579.851	   195.302	0	146017	0	0	mkdir serialjobdir190 && ./antsontable --length=190 --seed=190
-191	:	1553463591.818	   195.861	0	146057	0	0	mkdir serialjobdir191 && ./antsontable --length=191 --seed=191
-192	:	1553463604.593	   197.769	0	146151	0	0	mkdir serialjobdir192 && ./antsontable --length=192 --seed=192
-193	:	1553463616.589	   198.697	0	146213	0	0	mkdir serialjobdir193 && ./antsontable --length=193 --seed=193
-194	:	1553463626.479	   199.952	0	146310	0	0	mkdir serialjobdir194 && ./antsontable --length=194 --seed=194
-195	:	1553463638.267	   199.779	0	146315	0	0	mkdir serialjobdir195 && ./antsontable --length=195 --seed=195
-196	:	1553463651.229	   199.928	0	146416	0	0	mkdir serialjobdir196 && ./antsontable --length=196 --seed=196
-197	:	1553463662.425	   199.700	0	146480	0	0	mkdir serialjobdir197 && ./antsontable --length=197 --seed=197
-198	:	1553463675.785	   199.626	0	146518	0	0	mkdir serialjobdir198 && ./antsontable --length=198 --seed=198
-199	:	1553463685.196	   200.359	0	146637	0	0	mkdir serialjobdir199 && ./antsontable --length=199 --seed=199
-200	:	1553463699.747	   199.122	0	146752	0	0	mkdir serialjobdir200 && ./antsontable --length=200 --seed=200
+1	:	1553721025.103	     0.093	0	13	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=1; echo "Job 1 Done" 
+2	:	1553721025.105	     0.093	0	13	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=2; echo "Job 2 Done" 
+4	:	1553721025.108	     0.093	0	13	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=4; echo "Job 4 Done" 
+3	:	1553721025.106	     0.098	0	13	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=3; echo "Job 3 Done" 
+5	:	1553721025.109	     0.097	0	13	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=5; echo "Job 5 Done" 
+7	:	1553721025.112	     0.095	0	13	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=7; echo "Job 7 Done" 
+9	:	1553721025.116	     0.095	0	13	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=9; echo "Job 9 Done" 
+8	:	1553721025.114	     0.098	0	13	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=8; echo "Job 8 Done" 
+6	:	1553721025.111	     0.103	0	13	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=6; echo "Job 6 Done" 
+10	:	1553721025.117	     0.099	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=10; echo "Job 10 Done" 
+11	:	1553721025.119	     0.101	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=11; echo "Job 11 Done" 
+13	:	1553721025.122	     0.099	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=13; echo "Job 13 Done" 
+12	:	1553721025.121	     0.102	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=12; echo "Job 12 Done" 
+14	:	1553721025.124	     0.101	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=14; echo "Job 14 Done" 
+15	:	1553721025.125	     0.102	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=15; echo "Job 15 Done" 
+16	:	1553721025.127	     0.102	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=16; echo "Job 16 Done" 
+17	:	1553721025.198	     0.098	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=17; echo "Job 17 Done" 
+18	:	1553721025.201	     0.098	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=18; echo "Job 18 Done" 
+31	:	1553721025.230	     9.453	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=31; echo "Job 31 Done" 
+26	:	1553721025.219	     9.471	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=26; echo "Job 26 Done" 
+21	:	1553721025.208	     9.496	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=21; echo "Job 21 Done" 
+34	:	1553721025.302	     9.417	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=34; echo "Job 34 Done" 
+33	:	1553721025.299	     9.425	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=33; echo "Job 33 Done" 
+23	:	1553721025.212	     9.516	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=23; echo "Job 23 Done" 
+24	:	1553721025.215	     9.529	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=24; echo "Job 24 Done" 
+28	:	1553721025.224	     9.545	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=28; echo "Job 28 Done" 
+27	:	1553721025.221	     9.562	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=27; echo "Job 27 Done" 
+25	:	1553721025.217	     9.575	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=25; echo "Job 25 Done" 
+32	:	1553721025.232	     9.570	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=32; echo "Job 32 Done" 
+30	:	1553721025.228	     9.616	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=30; echo "Job 30 Done" 
+29	:	1553721025.226	     9.641	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=29; echo "Job 29 Done" 
+22	:	1553721025.210	     9.674	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=22; echo "Job 22 Done" 
+19	:	1553721025.204	     9.688	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=19; echo "Job 19 Done" 
+20	:	1553721025.206	     9.701	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=20; echo "Job 20 Done" 
+37	:	1553721034.706	     9.244	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=37; echo "Job 37 Done" 
+39	:	1553721034.727	     9.395	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=39; echo "Job 39 Done" 
+35	:	1553721034.686	     9.454	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=35; echo "Job 35 Done" 
+36	:	1553721034.693	     9.478	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=36; echo "Job 36 Done" 
+40	:	1553721034.730	     9.490	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=40; echo "Job 40 Done" 
+38	:	1553721034.721	     9.605	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=100 --seed=38; echo "Job 38 Done" 
+45	:	1553721034.805	    25.473	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=5; echo "Job 45 Done" 
+42	:	1553721034.771	    25.621	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=2; echo "Job 42 Done" 
+41	:	1553721034.747	    25.648	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=1; echo "Job 41 Done" 
+44	:	1553721034.794	    25.605	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=4; echo "Job 44 Done" 
+49	:	1553721034.895	    25.551	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=9; echo "Job 49 Done" 
+47	:	1553721034.870	    25.594	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=7; echo "Job 47 Done" 
+43	:	1553721034.787	    25.702	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=3; echo "Job 43 Done" 
+50	:	1553721034.910	    25.694	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=10; echo "Job 50 Done" 
+46	:	1553721034.847	    25.779	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=6; echo "Job 46 Done" 
+48	:	1553721034.887	    25.799	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=8; echo "Job 48 Done" 
+51	:	1553721043.954	    25.500	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=11; echo "Job 51 Done" 
+53	:	1553721044.146	    25.548	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=13; echo "Job 53 Done" 
+52	:	1553721044.126	    25.595	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=12; echo "Job 52 Done" 
+56	:	1553721044.329	    25.490	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=16; echo "Job 56 Done" 
+55	:	1553721044.223	    25.700	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=15; echo "Job 55 Done" 
+54	:	1553721044.175	    25.898	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=14; echo "Job 54 Done" 
+57	:	1553721060.282	    25.480	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=17; echo "Job 57 Done" 
+60	:	1553721060.400	    25.450	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=20; echo "Job 60 Done" 
+58	:	1553721060.396	    25.519	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=18; echo "Job 58 Done" 
+59	:	1553721060.398	    25.559	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=19; echo "Job 59 Done" 
+62	:	1553721060.465	    25.603	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=22; echo "Job 62 Done" 
+63	:	1553721060.491	    25.654	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=23; echo "Job 63 Done" 
+64	:	1553721060.607	    25.556	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=24; echo "Job 64 Done" 
+61	:	1553721060.448	    25.776	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=21; echo "Job 61 Done" 
+65	:	1553721060.627	    25.631	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=25; echo "Job 65 Done" 
+66	:	1553721060.688	    25.641	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=26; echo "Job 66 Done" 
+70	:	1553721069.822	    25.198	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=30; echo "Job 70 Done" 
+67	:	1553721069.458	    25.641	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=27; echo "Job 67 Done" 
+69	:	1553721069.723	    25.546	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=29; echo "Job 69 Done" 
+71	:	1553721069.926	    25.460	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=31; echo "Job 71 Done" 
+68	:	1553721069.696	    25.694	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=28; echo "Job 68 Done" 
+72	:	1553721070.075	    25.513	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=32; echo "Job 72 Done" 
+76	:	1553721085.959	    25.360	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=36; echo "Job 76 Done" 
+73	:	1553721085.764	    25.582	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=33; echo "Job 73 Done" 
+74	:	1553721085.853	    25.650	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=34; echo "Job 74 Done" 
+77	:	1553721086.070	    25.673	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=37; echo "Job 77 Done" 
+78	:	1553721086.147	    25.677	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=38; echo "Job 78 Done" 
+79	:	1553721086.165	    25.684	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=39; echo "Job 79 Done" 
+80	:	1553721086.226	    25.642	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=40; echo "Job 80 Done" 
+75	:	1553721085.918	    26.318	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=150 --seed=35; echo "Job 75 Done" 
+81	:	1553721086.261	    42.963	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=1; echo "Job 81 Done" 
+82	:	1553721086.332	    42.894	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=2; echo "Job 82 Done" 
+85	:	1553721095.271	    42.087	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=5; echo "Job 85 Done" 
+83	:	1553721095.023	    42.680	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=3; echo "Job 83 Done" 
+84	:	1553721095.102	    42.717	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=4; echo "Job 84 Done" 
+87	:	1553721095.393	    42.613	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=7; echo "Job 87 Done" 
+88	:	1553721095.591	    42.679	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=8; echo "Job 88 Done" 
+86	:	1553721095.388	    43.451	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=6; echo "Job 86 Done" 
+89	:	1553721111.322	    41.941	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=9; echo "Job 89 Done" 
+90	:	1553721111.348	    42.697	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=10; echo "Job 90 Done" 
+91	:	1553721111.504	    42.677	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=11; echo "Job 91 Done" 
+95	:	1553721111.871	    42.490	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=15; echo "Job 95 Done" 
+92	:	1553721111.745	    42.652	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=12; echo "Job 92 Done" 
+93	:	1553721111.827	    42.578	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=13; echo "Job 93 Done" 
+96	:	1553721112.238	    42.784	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=16; echo "Job 96 Done" 
+94	:	1553721111.851	    43.623	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=14; echo "Job 94 Done" 
+98	:	1553721129.229	    42.436	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=18; echo "Job 98 Done" 
+97	:	1553721129.226	    42.697	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=17; echo "Job 97 Done" 
+100	:	1553721137.706	    42.253	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=20; echo "Job 100 Done" 
+99	:	1553721137.361	    42.779	0	14	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=19; echo "Job 99 Done" 
+103	:	1553721138.273	    41.943	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=23; echo "Job 103 Done" 
+101	:	1553721137.821	    42.673	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=21; echo "Job 101 Done" 
+102	:	1553721138.008	    42.521	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=22; echo "Job 102 Done" 
+104	:	1553721138.842	    42.336	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=24; echo "Job 104 Done" 
+105	:	1553721153.266	    42.365	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=25; echo "Job 105 Done" 
+109	:	1553721154.398	    42.378	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=29; echo "Job 109 Done" 
+107	:	1553721154.183	    42.607	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=27; echo "Job 107 Done" 
+108	:	1553721154.362	    42.431	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=28; echo "Job 108 Done" 
+106	:	1553721154.047	    42.851	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=26; echo "Job 106 Done" 
+110	:	1553721154.407	    42.496	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=30; echo "Job 110 Done" 
+111	:	1553721155.024	    42.544	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=31; echo "Job 111 Done" 
+112	:	1553721155.477	    42.625	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=32; echo "Job 112 Done" 
+113	:	1553721171.668	    42.417	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=33; echo "Job 113 Done" 
+114	:	1553721171.925	    42.756	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=34; echo "Job 114 Done" 
+115	:	1553721179.962	    41.778	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=35; echo "Job 115 Done" 
+117	:	1553721180.218	    42.265	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=37; echo "Job 117 Done" 
+118	:	1553721180.497	    42.496	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=38; echo "Job 118 Done" 
+119	:	1553721180.531	    42.520	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=39; echo "Job 119 Done" 
+116	:	1553721180.141	    43.024	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=36; echo "Job 116 Done" 
+120	:	1553721181.181	    42.404	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=200 --seed=40; echo "Job 120 Done" 
+121	:	1553721195.636	    57.728	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=1; echo "Job 121 Done" 
+124	:	1553721196.795	    56.632	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=4; echo "Job 124 Done" 
+122	:	1553721196.779	    56.848	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=2; echo "Job 122 Done" 
+123	:	1553721196.793	    56.928	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=3; echo "Job 123 Done" 
+125	:	1553721196.900	    57.082	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=5; echo "Job 125 Done" 
+127	:	1553721197.570	    56.630	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=7; echo "Job 127 Done" 
+126	:	1553721196.905	    57.384	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=6; echo "Job 126 Done" 
+128	:	1553721198.105	    56.828	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=8; echo "Job 128 Done" 
+129	:	1553721214.087	    57.021	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=9; echo "Job 129 Done" 
+130	:	1553721214.683	    56.703	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=10; echo "Job 130 Done" 
+131	:	1553721221.742	    56.540	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=11; echo "Job 131 Done" 
+134	:	1553721223.053	    55.574	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=14; echo "Job 134 Done" 
+132	:	1553721222.485	    56.910	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=12; echo "Job 132 Done" 
+133	:	1553721222.996	    56.769	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=13; echo "Job 133 Done" 
+135	:	1553721223.168	    56.773	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=15; echo "Job 135 Done" 
+136	:	1553721223.588	    56.543	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=16; echo "Job 136 Done" 
+137	:	1553721253.366	    55.707	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=17; echo "Job 137 Done" 
+138	:	1553721253.430	    56.805	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=18; echo "Job 138 Done" 
+139	:	1553721253.630	    56.790	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=19; echo "Job 139 Done" 
+140	:	1553721253.724	    56.699	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=20; echo "Job 140 Done" 
+141	:	1553721253.984	    56.693	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=21; echo "Job 141 Done" 
+143	:	1553721254.291	    56.485	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=23; echo "Job 143 Done" 
+142	:	1553721254.202	    57.388	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=22; echo "Job 142 Done" 
+144	:	1553721254.936	    56.678	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=24; echo "Job 144 Done" 
+146	:	1553721271.389	    56.495	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=26; echo "Job 146 Done" 
+145	:	1553721271.111	    57.197	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=25; echo "Job 145 Done" 
+147	:	1553721278.285	    57.014	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=27; echo "Job 147 Done" 
+148	:	1553721278.629	    56.792	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=28; echo "Job 148 Done" 
+149	:	1553721279.397	    56.677	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=29; echo "Job 149 Done" 
+150	:	1553721279.768	    56.824	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=30; echo "Job 150 Done" 
+151	:	1553721279.943	    56.827	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=31; echo "Job 151 Done" 
+152	:	1553721280.133	    56.772	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=32; echo "Job 152 Done" 
+153	:	1553721309.077	    56.659	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=33; echo "Job 153 Done" 
+156	:	1553721310.425	    56.539	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=36; echo "Job 156 Done" 
+154	:	1553721310.238	    56.903	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=34; echo "Job 154 Done" 
+158	:	1553721310.777	    56.427	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=38; echo "Job 158 Done" 
+155	:	1553721310.423	    56.923	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=35; echo "Job 155 Done" 
+157	:	1553721310.679	    56.721	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=37; echo "Job 157 Done" 
+160	:	1553721311.617	    56.605	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=40; echo "Job 160 Done" 
+159	:	1553721311.592	    56.813	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=250 --seed=39; echo "Job 159 Done" 
+161	:	1553721327.887	    68.311	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=1; echo "Job 161 Done" 
+162	:	1553721328.311	    68.138	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=2; echo "Job 162 Done" 
+164	:	1553721335.424	    67.943	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=4; echo "Job 164 Done" 
+163	:	1553721335.301	    68.285	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=3; echo "Job 163 Done" 
+167	:	1553721336.773	    67.174	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=7; echo "Job 167 Done" 
+166	:	1553721336.594	    67.694	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=6; echo "Job 166 Done" 
+165	:	1553721336.077	    68.468	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=5; echo "Job 165 Done" 
+168	:	1553721336.907	    68.109	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=8; echo "Job 168 Done" 
+169	:	1553721365.740	    69.177	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=9; echo "Job 169 Done" 
+172	:	1553721367.206	    67.955	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=12; echo "Job 172 Done" 
+170	:	1553721366.967	    68.234	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=10; echo "Job 170 Done" 
+171	:	1553721367.143	    68.282	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=11; echo "Job 171 Done" 
+173	:	1553721367.349	    68.331	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=13; echo "Job 173 Done" 
+174	:	1553721367.402	    68.296	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=14; echo "Job 174 Done" 
+175	:	1553721368.225	    68.021	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=15; echo "Job 175 Done" 
+176	:	1553721368.408	    68.308	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=16; echo "Job 176 Done" 
+177	:	1553721396.202	    68.156	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=17; echo "Job 177 Done" 
+178	:	1553721396.452	    68.025	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=18; echo "Job 178 Done" 
+179	:	1553721403.369	    68.065	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=19; echo "Job 179 Done" 
+180	:	1553721403.589	    68.082	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=20; echo "Job 180 Done" 
+181	:	1553721403.948	    68.601	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=21; echo "Job 181 Done" 
+182	:	1553721404.290	    68.403	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=22; echo "Job 182 Done" 
+183	:	1553721404.547	    68.255	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=23; echo "Job 183 Done" 
+184	:	1553721405.019	    68.415	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=24; echo "Job 184 Done" 
+185	:	1553721434.921	    73.015	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=25; echo "Job 185 Done" 
+187	:	1553721435.204	    73.019	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=27; echo "Job 187 Done" 
+188	:	1553721435.427	    72.963	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=28; echo "Job 188 Done" 
+190	:	1553721435.701	    72.878	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=30; echo "Job 190 Done" 
+189	:	1553721435.682	    72.935	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=29; echo "Job 189 Done" 
+186	:	1553721435.164	    73.777	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=26; echo "Job 186 Done" 
+191	:	1553721436.248	    73.038	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=31; echo "Job 191 Done" 
+192	:	1553721436.718	    72.940	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=32; echo "Job 192 Done" 
+193	:	1553721464.361	    72.471	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=33; echo "Job 193 Done" 
+194	:	1553721464.479	    73.004	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=34; echo "Job 194 Done" 
+196	:	1553721471.673	    72.972	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=36; echo "Job 196 Done" 
+199	:	1553721472.804	    72.049	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=39; echo "Job 199 Done" 
+198	:	1553721472.695	    72.575	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=38; echo "Job 198 Done" 
+195	:	1553721471.437	    73.842	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=35; echo "Job 195 Done" 
+197	:	1553721472.551	    72.887	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=37; echo "Job 197 Done" 
+200	:	1553721473.437	    72.168	0	15	0	0	./antsontable --netcdf_output_steps=0 --screen_output_steps=0 --length=300 --seed=40; echo "Job 200 Done" 
